@@ -1,0 +1,3021 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (hexmap)' inline='true' name='federated.0yoatqj1nc8b6r15q5nr61yvwih4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='hexmap' name='excel-direct.13t46jk1bpg4ds16pumf60xab8j0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Admin1/Downloads/hexmap.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.13t46jk1bpg4ds16pumf60xab8j0' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D52:no:A1:D52:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Row' ordinal='0' />
+            <column datatype='real' name='Column' ordinal='1' />
+            <column datatype='string' name='State' ordinal='2' />
+            <column datatype='string' name='Abbreviation' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.13t46jk1bpg4ds16pumf60xab8j0' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D52:no:A1:D52:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Row' ordinal='0' />
+            <column datatype='real' name='Column' ordinal='1' />
+            <column datatype='string' name='State' ordinal='2' />
+            <column datatype='string' name='Abbreviation' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D52:no:A1:D52:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Row</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Row]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Row</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_27727D10489B47718CA7236F4D665F14]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Column</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Column]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Column</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_27727D10489B47718CA7236F4D665F14]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_27727D10489B47718CA7236F4D665F14]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Abbreviation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Abbreviation]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Abbreviation</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_27727D10489B47718CA7236F4D665F14]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_27727D10489B47718CA7236F4D665F14]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_27727D10489B47718CA7236F4D665F14'>
+            <properties context=''>
+              <relation connection='excel-direct.13t46jk1bpg4ds16pumf60xab8j0' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:D52:no:A1:D52:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Row' ordinal='0' />
+                  <column datatype='real' name='Column' ordinal='1' />
+                  <column datatype='string' name='State' ordinal='2' />
+                  <column datatype='string' name='Abbreviation' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Financial Consumer Complaints' inline='true' name='federated.0a524020ue0dzn16chpu31arefnl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Financial Consumer Complaints' name='textscan.0mbo6190rwtb0z103ekq219xpk4j'>
+            <connection class='textscan' directory='C:/Users/Admin1/Downloads' filename='Financial Consumer Complaints.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0mbo6190rwtb0z103ekq219xpk4j' name='Financial Consumer Complaints.csv' table='[Financial Consumer Complaints#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='Complaint ID' ordinal='0' />
+            <column datatype='date' name='Date Sumbited' ordinal='1' />
+            <column datatype='string' name='Product' ordinal='2' />
+            <column datatype='string' name='Sub-product' ordinal='3' />
+            <column datatype='string' name='Issue' ordinal='4' />
+            <column datatype='string' name='Sub-issue' ordinal='5' />
+            <column datatype='string' name='Company public response' ordinal='6' />
+            <column datatype='string' name='Company' ordinal='7' />
+            <column datatype='string' name='State' ordinal='8' />
+            <column datatype='string' name='ZIP code' ordinal='9' />
+            <column datatype='string' name='Tags' ordinal='10' />
+            <column datatype='string' name='Consumer consent provided?' ordinal='11' />
+            <column datatype='string' name='Submitted via' ordinal='12' />
+            <column datatype='date' name='Date Received' ordinal='13' />
+            <column datatype='string' name='Company response to consumer' ordinal='14' />
+            <column datatype='string' name='Timely response?' ordinal='15' />
+            <column datatype='string' name='Consumer disputed?' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0mbo6190rwtb0z103ekq219xpk4j' name='Financial Consumer Complaints.csv' table='[Financial Consumer Complaints#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='Complaint ID' ordinal='0' />
+            <column datatype='date' name='Date Sumbited' ordinal='1' />
+            <column datatype='string' name='Product' ordinal='2' />
+            <column datatype='string' name='Sub-product' ordinal='3' />
+            <column datatype='string' name='Issue' ordinal='4' />
+            <column datatype='string' name='Sub-issue' ordinal='5' />
+            <column datatype='string' name='Company public response' ordinal='6' />
+            <column datatype='string' name='Company' ordinal='7' />
+            <column datatype='string' name='State' ordinal='8' />
+            <column datatype='string' name='ZIP code' ordinal='9' />
+            <column datatype='string' name='Tags' ordinal='10' />
+            <column datatype='string' name='Consumer consent provided?' ordinal='11' />
+            <column datatype='string' name='Submitted via' ordinal='12' />
+            <column datatype='date' name='Date Received' ordinal='13' />
+            <column datatype='string' name='Company response to consumer' ordinal='14' />
+            <column datatype='string' name='Timely response?' ordinal='15' />
+            <column datatype='string' name='Consumer disputed?' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Complaint ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Complaint ID]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Complaint ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Sumbited</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date Sumbited]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Date Sumbited</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Product]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Product</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub-product</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sub-product]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Sub-product</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Issue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Issue]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Issue</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub-issue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sub-issue]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Sub-issue</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company public response</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company public response]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Company public response</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZIP code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ZIP code]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>ZIP code</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tags</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tags]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Tags</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Consumer consent provided?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Consumer consent provided?]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Consumer consent provided?</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Submitted via</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Submitted via]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Submitted via</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Received</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date Received]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Date Received</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company response to consumer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company response to consumer]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Company response to consumer</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timely response?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Timely response?]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Timely response?</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Consumer disputed?</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Consumer disputed?]</local-name>
+            <parent-name>[Financial Consumer Complaints.csv]</parent-name>
+            <remote-alias>Consumer disputed?</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='# of non monetary relief' datatype='real' name='[# of monetary relief (copy)_1464232861871755270]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1 - [Calculation_1464232861870940165]' />
+      </column>
+      <column caption='Total complaints#' datatype='integer' name='[Calculation_1464232861862772736]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : COUNT([Complaint ID])}' />
+      </column>
+      <column caption='Timely Response%' datatype='real' name='[Calculation_1464232861863518209]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF [Timely response?] = &quot;Yes&quot; THEN [Complaint ID] END) / COUNT([Complaint ID])' />
+      </column>
+      <column caption='Non Timely Respinse' datatype='real' name='[Calculation_1464232861865291778]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1 - [Calculation_1464232861863518209]' />
+      </column>
+      <column caption='# of monetary relief' datatype='real' name='[Calculation_1464232861870940165]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF [Company response to consumer] = &quot;Closed with monetary relief&quot; THEN [Complaint ID] END)/ COUNT([Complaint ID])' />
+      </column>
+      <column caption='Disputed Yes' datatype='integer' name='[Calculation_1464232861876912135]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Consumer disputed?] = &quot;Yes&quot; THEN 1&#13;&#10;END' />
+      </column>
+      <column caption='Disputed yes pct' datatype='real' default-format='p0.00%' name='[Calculation_1464232861877346312]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Calculation_1464232861876912135]) / COUNT([Consumer disputed?])' />
+      </column>
+      <column caption='%Cust disputed' datatype='real' name='[Calculation_1464232862462205961]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF [Consumer disputed?] = &quot;Yes&quot; THEN [Complaint ID]END)/ COUNT([Complaint ID])' />
+      </column>
+      <column caption='max complaint by category' datatype='integer' name='[Calculation_1464232862560186385]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : MAX ({ FIXED [Issue] : COUNT([Complaint ID])})}' />
+      </column>
+      <column caption='In progress' datatype='integer' name='[Calculation_1464232862836936723]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(IF [Company response to consumer] = &quot;In progress&quot; THEN [Complaint ID]END)' />
+      </column>
+      <column caption='In progress%' datatype='real' name='[Calculation_1464232862837735444]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_1464232862836936723] / COUNT([Complaint ID])' />
+      </column>
+      <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Consumer disputed?]' role='dimension' type='nominal' />
+      <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+      <column caption='Abbreviation' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[ZIP code]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Financial Consumer Complaints.csv' datatype='table' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+      <column-instance column='[Consumer disputed?]' derivation='None' name='[none:Consumer disputed?:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[# of monetary relief (copy)_1464232861871755270]' derivation='User' name='[usr:# of monetary relief (copy)_1464232861871755270:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1464232861863518209]' derivation='User' name='[usr:Calculation_1464232861863518209:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1464232861865291778]' derivation='User' name='[usr:Calculation_1464232861865291778:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1464232861870940165]' derivation='User' name='[usr:Calculation_1464232861870940165:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Admin1/Documents/My Tableau Repository/Datasources/Financial Consumer Complaints.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='11/23/2022 11:29:03 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='Financial Consumer Complaints' increment-value='%null%' refresh-type='create' rows-inserted='75513' timestamp-start='2022-11-23 23:28:55.694' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Complaint ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Complaint ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Complaint ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>75513</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date Sumbited</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date Sumbited]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date Sumbited</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>8765</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sub-product</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sub-product]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sub-product</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>114</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Issue</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Issue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Issue</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>140</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sub-issue</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sub-issue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sub-issue</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>242</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Company public response</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company public response]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company public response</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Company</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ZIP code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ZIP code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ZIP code</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11283</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tags</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Tags]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tags</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Consumer consent provided?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Consumer consent provided?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Consumer consent provided?</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Submitted via</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Submitted via]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Submitted via</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date Received</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date Received]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date Received</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>8170</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Company response to consumer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Company response to consumer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Company response to consumer</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Timely response?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Timely response?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Timely response?</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Consumer disputed?</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Consumer disputed?]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Consumer disputed?</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Financial Consumer Complaints.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+        <filter class='quantitative' column='[none:Date Sumbited:qk]' included-values='in-range-or-null'>
+          <min>#2011-12-01#</min>
+          <max>#2020-10-13#</max>
+        </filter>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Consumer disputed?:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+            <map to='#300561'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#17becf'>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:\# of monetary relief (copy)_1464232861871755270:qk]&quot;</bucket>
+            </map>
+            <map to='#17becf'>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861863518209:qk]&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861865291778:qk]&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861870940165:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Financial Consumer Complaints.csv' id='Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4'>
+            <properties context=''>
+              <relation connection='textscan.0mbo6190rwtb0z103ekq219xpk4j' name='Financial Consumer Complaints.csv' table='[Financial Consumer Complaints#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='integer' name='Complaint ID' ordinal='0' />
+                  <column datatype='date' name='Date Sumbited' ordinal='1' />
+                  <column datatype='string' name='Product' ordinal='2' />
+                  <column datatype='string' name='Sub-product' ordinal='3' />
+                  <column datatype='string' name='Issue' ordinal='4' />
+                  <column datatype='string' name='Sub-issue' ordinal='5' />
+                  <column datatype='string' name='Company public response' ordinal='6' />
+                  <column datatype='string' name='Company' ordinal='7' />
+                  <column datatype='string' name='State' ordinal='8' />
+                  <column datatype='string' name='ZIP code' ordinal='9' />
+                  <column datatype='string' name='Tags' ordinal='10' />
+                  <column datatype='string' name='Consumer consent provided?' ordinal='11' />
+                  <column datatype='string' name='Submitted via' ordinal='12' />
+                  <column datatype='date' name='Date Received' ordinal='13' />
+                  <column datatype='string' name='Company response to consumer' ordinal='14' />
+                  <column datatype='string' name='Timely response?' ordinal='15' />
+                  <column datatype='string' name='Consumer disputed?' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.0a524020ue0dzn16chpu31arefnl'>
+      <datasources>
+        <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+        <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+        <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <filter class='quantitative' column='[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]' included-values='in-range-or-null'>
+        <min>#2011-12-01#</min>
+        <max>#2020-10-13#</max>
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='COMPLAINTS BY STATE'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#666666' fontname='Tableau Book' fontsize='10'>COMPLAINTS</run>
+            <run bold='true' fontalignment='1' fontcolor='#1b1b1b' fontname='Tableau Book' fontsize='10'> BY STATES</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (hexmap)' name='federated.0yoatqj1nc8b6r15q5nr61yvwih4' />
+            <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+            <_.fcp.ObjectModelTableType.true...column caption='Financial Consumer Complaints.csv' datatype='table' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Financial Consumer Complaints.csv' datatype='integer' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0yoatqj1nc8b6r15q5nr61yvwih4'>
+            <column datatype='string' name='[Abbreviation]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Column]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Row]' role='measure' type='quantitative' />
+            <column-instance column='[Abbreviation]' derivation='None' name='[none:Abbreviation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Column]' derivation='Sum' name='[sum:Column:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Row]' derivation='Sum' name='[sum:Row:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0yoatqj1nc8b6r15q5nr61yvwih4].[sum:Row:qk]' field-type='quantitative' reverse='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.0yoatqj1nc8b6r15q5nr61yvwih4].[sum:Row:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0yoatqj1nc8b6r15q5nr61yvwih4].[sum:Column:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#d6dfe6</color>
+                <color>#becddc</color>
+                <color>#a6bdd2</color>
+                <color>#90adc7</color>
+                <color>#7c9dbd</color>
+                <color>#698fb3</color>
+                <color>#5781a8</color>
+                <color>#47749e</color>
+                <color>#386794</color>
+                <color>#2b5c8a</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' />
+              <text column='[federated.0yoatqj1nc8b6r15q5nr61yvwih4].[none:Abbreviation:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true'>&lt;</run>
+                <run bold='true'>[federated.0yoatqj1nc8b6r15q5nr61yvwih4].[none:Abbreviation:nk]</run>
+                <run bold='true'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='8' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='shape' value='Bars/tHWKRKM - Imgur.png' />
+                <format attr='size' value='2.5082871913909912' />
+                <format attr='mark-transparency' value='249' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0yoatqj1nc8b6r15q5nr61yvwih4].[sum:Row:qk]</rows>
+        <cols>[federated.0yoatqj1nc8b6r15q5nr61yvwih4].[sum:Column:qk]</cols>
+      </table>
+      <simple-id uuid='{BC2C8E61-3F64-4948-A328-DA4A8581D7A0}' />
+    </worksheet>
+    <worksheet name='Complaints by product'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#555555' fontname='Tableau Book' fontsize='10'>COMPLAINTS</run>
+            <run bold='true' fontalignment='1' fontcolor='#1b1b1b' fontname='Tableau Book' fontsize='10'> BY PRODUCT</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+            <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Financial Consumer Complaints.csv' datatype='integer' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Financial Consumer Complaints.csv' datatype='table' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0a524020ue0dzn16chpu31arefnl].[none:Product:nk]' direction='DESC' using='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' />
+          <slices>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.0a524020ue0dzn16chpu31arefnl].[none:Product:nk]' value='8' />
+            <format attr='font-weight' field='[federated.0a524020ue0dzn16chpu31arefnl].[none:Product:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dotted' />
+            <format attr='stroke-size' id='refline0' value='1' />
+            <format attr='stroke-color' id='refline0' value='#6666666d' />
+            <format attr='text-format' id='refline0' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <reference-line axis-column='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' enable-instant-analytics='true' formula='average' id='refline0' label='Average&lt;Value&gt;' label-type='custom' probability='95' scope='per-table' value-column='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' z-order='1' />
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-size' value='8' />
+                <format attr='color' value='#898989' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#389fdc' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0a524020ue0dzn16chpu31arefnl].[none:Product:nk]</rows>
+        <cols>[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]</cols>
+      </table>
+      <simple-id uuid='{A0DA227A-C64C-4C61-87C5-A49763C2761B}' />
+    </worksheet>
+    <worksheet name='Dispute'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#666666' fontname='Tableau Book' fontsize='10'>%CUSTOMER</run>
+            <run fontalignment='1' fontname='Tableau Book' fontsize='10'>Æ </run>
+            <run bold='true' fontalignment='1' fontcolor='#1b1b1b' fontname='Tableau Book' fontsize='10'>DISPUTED</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+            <column caption='MIN(0)' datatype='integer' name='[Calculation_1464232862463389707]' role='measure' type='quantitative' user:unnamed='Dispute'>
+              <calculation class='tableau' formula='MIN(0)' />
+            </column>
+            <column caption='MIN(0)' datatype='integer' name='[Calculation_1464232862463430669]' role='measure' type='quantitative' user:unnamed='Dispute'>
+              <calculation class='tableau' formula='MIN(0)' />
+            </column>
+            <column datatype='string' name='[Consumer disputed?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Financial Consumer Complaints.csv' datatype='integer' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Financial Consumer Complaints.csv' datatype='table' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Consumer disputed?]' derivation='None' name='[none:Consumer disputed?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232862463389707]' derivation='User' name='[usr:Calculation_1464232862463389707:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232862463430669]' derivation='User' name='[usr:Calculation_1464232862463430669:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862463430669:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='width' field='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862463389707:qk]' value='10' />
+            <format attr='width' field='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862463430669:qk]' value='10' />
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862463430669:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862463389707:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='240' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5712155103683472' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862463389707:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0a524020ue0dzn16chpu31arefnl].[none:Consumer disputed?:nk]' />
+              <wedge-size column='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' />
+              <text column='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' />
+              <text column='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[pcto:cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='8'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#666666' fontsize='8'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[pcto:cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.4172928333282471' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862463430669:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.0434806346893311' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862463389707:qk] + [federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862463430669:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{08886288-3110-41D9-8F8C-D5B1A5D70DC1}' />
+    </worksheet>
+    <worksheet name='Disputed Rate'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#555555' fontname='Tableau Book' fontsize='10'>DISPUTED RATE</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+            <column caption='Disputed Yes' datatype='integer' name='[Calculation_1464232861876912135]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Consumer disputed?] = &quot;Yes&quot; THEN 1&#13;&#10;END' />
+            </column>
+            <column caption='Disputed yes pct' datatype='real' default-format='p0.00%' name='[Calculation_1464232861877346312]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Calculation_1464232861876912135]) / COUNT([Consumer disputed?])' />
+            </column>
+            <column datatype='string' name='[Consumer disputed?]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+            <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232861877346312]' derivation='User' name='[usr:Calculation_1464232861877346312:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <slices>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]</column>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861877346312:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='top' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.2853591442108154' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B1828E47-1BD7-449D-B058-CA055092B860}' />
+    </worksheet>
+    <worksheet name='In Progress'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#555555' fontname='Tableau Book' fontsize='10'>IN PROGRESS</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#f28e2b' fontname='Tableau Medium' fontsize='24'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862836936723:qk]>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+            <column caption='In progress' datatype='integer' name='[Calculation_1464232862836936723]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF [Company response to consumer] = &quot;In progress&quot; THEN [Complaint ID]END)' />
+            </column>
+            <column caption='In progress%' datatype='real' name='[Calculation_1464232862837735444]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_1464232862836936723] / COUNT([Complaint ID])' />
+            </column>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+            <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232862836936723]' derivation='User' name='[usr:Calculation_1464232862836936723:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232862837735444]' derivation='User' name='[usr:Calculation_1464232862837735444:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#f28e2b' />
+            <format attr='text-format' field='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862837735444:qk]' value='p0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862837735444:qk]' />
+              <lod column='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862836936723:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='top' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9DF163BC-79FC-40EF-80E7-15F31F301132}' />
+    </worksheet>
+    <worksheet name='Resolved at no cost'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#555555' fontname='Tableau Book' fontsize='10'>RESOLVED AT NO COST</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Tableau Medium' fontsize='24'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[usr:# of monetary relief (copy)_1464232861871755270:qk]>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+            <column caption='# of non monetary relief' datatype='real' name='[# of monetary relief (copy)_1464232861871755270]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1 - [Calculation_1464232861870940165]' />
+            </column>
+            <column caption='# of monetary relief' datatype='real' name='[Calculation_1464232861870940165]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF [Company response to consumer] = &quot;Closed with monetary relief&quot; THEN [Complaint ID] END)/ COUNT([Complaint ID])' />
+            </column>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+            <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[# of monetary relief (copy)_1464232861871755270]' derivation='User' name='[usr:# of monetary relief (copy)_1464232861871755270:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232861870940165]' derivation='User' name='[usr:Calculation_1464232861870940165:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861870940165:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:\# of monetary relief (copy)_1464232861871755270:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]</column>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0a524020ue0dzn16chpu31arefnl].[usr:# of monetary relief (copy)_1464232861871755270:qk]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]' />
+              <lod column='[federated.0a524020ue0dzn16chpu31arefnl].[usr:# of monetary relief (copy)_1464232861871755270:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{B4B01017-A510-46A2-B78D-F8CEFC16D5C7}' />
+    </worksheet>
+    <worksheet name='Timely Response'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#555555' fontname='Tableau Book' fontsize='10'>TIMELY RESPONSE</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Tableau Medium' fontsize='24'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861863518209:qk]>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+            <column caption='Timely Response%' datatype='real' name='[Calculation_1464232861863518209]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF [Timely response?] = &quot;Yes&quot; THEN [Complaint ID] END) / COUNT([Complaint ID])' />
+            </column>
+            <column caption='Non Timely Respinse' datatype='real' name='[Calculation_1464232861865291778]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1 - [Calculation_1464232861863518209]' />
+            </column>
+            <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Timely response?]' role='dimension' type='nominal' />
+            <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232861863518209]' derivation='User' name='[usr:Calculation_1464232861863518209:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232861865291778]' derivation='User' name='[usr:Calculation_1464232861865291778:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861865291778:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861863518209:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]</column>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861863518209:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861863518209:qk]' value='p0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]' />
+              <lod column='[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861863518209:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values]</cols>
+      </table>
+      <simple-id uuid='{D9EC165C-3FF2-4AD8-9060-74AF1E51AFB1}' />
+    </worksheet>
+    <worksheet name='Total Complaints'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#555555' fontname='Tableau Book' fontsize='10'>TOTAL COMPLAINTS</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Tableau Medium' fontsize='24'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[sum:Calculation_1464232861862772736:qk]>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+            <column caption='Total complaints#' datatype='integer' name='[Calculation_1464232861862772736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : COUNT([Complaint ID])}' />
+            </column>
+            <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Financial Consumer Complaints.csv' datatype='integer' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Financial Consumer Complaints.csv' datatype='table' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232861862772736]' derivation='Sum' name='[sum:Calculation_1464232861862772736:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date Sumbited]' derivation='Month-Trunc' name='[tmn:Date Sumbited:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[tmn:Date Sumbited:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#389fdc' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' />
+              <lod column='[federated.0a524020ue0dzn16chpu31arefnl].[sum:Calculation_1464232861862772736:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#389fdc' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]</rows>
+        <cols>[federated.0a524020ue0dzn16chpu31arefnl].[tmn:Date Sumbited:qk]</cols>
+      </table>
+      <simple-id uuid='{48AE022B-85EB-4D77-A054-DF0A9F7AF9E4}' />
+    </worksheet>
+    <worksheet name='complaints by issue'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#666666' fontname='Tableau Book' fontsize='10'>COMPLAINTS</run>
+            <run bold='true' fontalignment='1' fontcolor='#1b1b1b' fontname='Tableau Book' fontsize='10'> BY ISSUE</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+            <column caption='Total complaints#' datatype='integer' name='[Calculation_1464232861862772736]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : COUNT([Complaint ID])}' />
+            </column>
+            <column caption='max complaint by category' datatype='integer' name='[Calculation_1464232862560186385]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : MAX ({ FIXED [Issue] : COUNT([Complaint ID])})}' />
+            </column>
+            <column caption='SUM(0)' datatype='integer' name='[Calculation_1464232862561484818]' role='measure' type='quantitative' user:unnamed='complaints by issue'>
+              <calculation class='tableau' formula='SUM(0)' />
+            </column>
+            <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
+            <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Financial Consumer Complaints.csv' datatype='integer' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Issue]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Financial Consumer Complaints.csv' datatype='table' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Issue]' derivation='None' name='[none:Issue:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1464232861862772736]' derivation='Sum' name='[sum:Calculation_1464232861862772736:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232862560186385]' derivation='Sum' name='[sum:Calculation_1464232862560186385:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232862561484818]' derivation='User' name='[usr:Calculation_1464232862561484818:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862561484818:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[sum:Calculation_1464232861862772736:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862561484818:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0a524020ue0dzn16chpu31arefnl].[none:Issue:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]</column>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values]' field-type='quantitative' fold='true' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[sum:Calculation_1464232862560186385:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]' value='Date Sumbited'>
+              <formatted-text>
+                <run fontalignment='1'>Date Sumbited</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0a524020ue0dzn16chpu31arefnl].[sum:Calculation_1464232862560186385:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.0099999997764825821' />
+                <format attr='mark-color' value='#389fdc' />
+                <format attr='mark-transparency' value='201' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <path column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='3.0828728675842285' />
+                <format attr='mark-color' value='#389fdc' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0a524020ue0dzn16chpu31arefnl].[none:Issue:nk]</rows>
+        <cols>([federated.0a524020ue0dzn16chpu31arefnl].[sum:Calculation_1464232862560186385:qk] + [federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values])</cols>
+      </table>
+      <simple-id uuid='{B350E5FB-DB50-44A6-A150-4033F8BF86AC}' />
+    </worksheet>
+    <worksheet name='complaints by media'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#666666' fontname='Tableau Book' fontsize='10'>COMPLAINTS</run>
+            <run bold='true' fontalignment='1' fontcolor='#666666' fontname='Tableau Book' fontsize='10'>Æ </run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Book' fontsize='10'>BY MEDIA</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+            <column caption='# of non monetary relief' datatype='real' name='[# of monetary relief (copy)_1464232861871755270]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1 - [Calculation_1464232861870940165]' />
+            </column>
+            <column caption='Timely Response%' datatype='real' name='[Calculation_1464232861863518209]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF [Timely response?] = &quot;Yes&quot; THEN [Complaint ID] END) / COUNT([Complaint ID])' />
+            </column>
+            <column caption='Non Timely Respinse' datatype='real' name='[Calculation_1464232861865291778]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1 - [Calculation_1464232861863518209]' />
+            </column>
+            <column caption='# of monetary relief' datatype='real' name='[Calculation_1464232861870940165]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF [Company response to consumer] = &quot;Closed with monetary relief&quot; THEN [Complaint ID] END)/ COUNT([Complaint ID])' />
+            </column>
+            <column caption='Disputed Yes' datatype='integer' name='[Calculation_1464232861876912135]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Consumer disputed?] = &quot;Yes&quot; THEN 1&#13;&#10;END' />
+            </column>
+            <column caption='Disputed yes pct' datatype='real' default-format='p0.00%' name='[Calculation_1464232861877346312]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Calculation_1464232861876912135]) / COUNT([Consumer disputed?])' />
+            </column>
+            <column caption='%Cust disputed' datatype='real' name='[Calculation_1464232862462205961]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(IF [Consumer disputed?] = &quot;Yes&quot; THEN [Complaint ID]END)/ COUNT([Complaint ID])' />
+            </column>
+            <column caption='SUM(0)' datatype='integer' name='[Calculation_1464232862467727374]' role='measure' type='quantitative' user:unnamed='Sheet 8'>
+              <calculation class='tableau' formula='SUM(0)' />
+            </column>
+            <column datatype='string' name='[Company response to consumer]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Complaint ID]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Consumer disputed?]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Submitted via]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Financial Consumer Complaints.csv' datatype='integer' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Timely response?]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Financial Consumer Complaints.csv' datatype='table' name='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Submitted via]' derivation='None' name='[none:Submitted via:nk]' pivot='key' type='nominal' />
+            <column-instance column='[__tableau_internal_object_id__].[Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4]' derivation='Count' name='[pcto:cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_1464232861876912135]' derivation='Sum' name='[sum:Calculation_1464232861876912135:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[# of monetary relief (copy)_1464232861871755270]' derivation='User' name='[usr:# of monetary relief (copy)_1464232861871755270:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232861865291778]' derivation='User' name='[usr:Calculation_1464232861865291778:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232861870940165]' derivation='User' name='[usr:Calculation_1464232861870940165:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232861877346312]' derivation='User' name='[usr:Calculation_1464232861877346312:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232862462205961]' derivation='User' name='[usr:Calculation_1464232862462205961:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1464232862467727374]' derivation='User' name='[usr:Calculation_1464232862467727374:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862467727374:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861870940165:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:\# of monetary relief (copy)_1464232861871755270:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862462205961:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[sum:Calculation_1464232861876912135:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861877346312:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861866029059:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232862467727374:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861865291778:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0a524020ue0dzn16chpu31arefnl].[usr:Calculation_1464232861867470852:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0a524020ue0dzn16chpu31arefnl].[none:Submitted via:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]</column>
+            <column>[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.0a524020ue0dzn16chpu31arefnl].[pcto:cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk:2]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0a524020ue0dzn16chpu31arefnl].[none:Submitted via:nk]' value='true' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0a524020ue0dzn16chpu31arefnl].[pcto:cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk:2]' />
+              <text column='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' />
+              <lod column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#1b1b1b' fontsize='14'>Submitted via:</run>
+                <run fontcolor='#787878' fontsize='14'>Æ&#9;</run>
+                <run bold='true' fontcolor='#389fdc' fontsize='14'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[none:Submitted via:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count of Financial Consumer Complaints.csv:	</run>
+                <run bold='true' fontcolor='#1b1b1b'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]>]]></run>
+                <run bold='true' fontcolor='#389fdc'><![CDATA[(<[federated.0a524020ue0dzn16chpu31arefnl].[pcto:cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk:2]>)]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#389fdc' fontsize='8'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[pcto:cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk:2]>]]></run>
+                <run fontsize='8'> | </run>
+                <run fontcolor='#555555' fontsize='8'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='bottom' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.1754143238067627' />
+                <format attr='mark-color' value='#00007f' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.0a524020ue0dzn16chpu31arefnl].[pcto:cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk:2]' />
+              <lod column='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' />
+              <path column='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#1b1b1b' fontsize='14'>Submitted via:</run>
+                <run fontcolor='#787878' fontsize='14'>Æ&#9;</run>
+                <run bold='true' fontcolor='#389fdc' fontsize='14'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[none:Submitted via:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count of Financial Consumer Complaints.csv:	</run>
+                <run bold='true' fontcolor='#1b1b1b'><![CDATA[<[federated.0a524020ue0dzn16chpu31arefnl].[pcto:cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk:2]>]]></run>
+                <run bold='true' fontcolor='#389fdc'><![CDATA[(<[federated.0a524020ue0dzn16chpu31arefnl].[pcto:cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk:2]>)]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='7.4908275604248047' />
+                <format attr='mark-color' value='#c0c0c0' />
+                <format attr='mark-transparency' value='126' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0a524020ue0dzn16chpu31arefnl].[none:Submitted via:nk]</rows>
+        <cols>([federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk] + [federated.0a524020ue0dzn16chpu31arefnl].[Multiple Values])</cols>
+      </table>
+      <simple-id uuid='{67C1A6EF-B54E-4257-985F-EFC1D099A42A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='FC View'>
+      <style />
+      <size maxheight='900' maxwidth='1000' minheight='900' minwidth='1000' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='Financial Consumer Complaints' name='federated.0a524020ue0dzn16chpu31arefnl' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0a524020ue0dzn16chpu31arefnl'>
+        <column datatype='date' name='[Date Sumbited]' role='dimension' type='ordinal' />
+        <column-instance column='[Date Sumbited]' derivation='None' name='[none:Date Sumbited:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98222' id='36' param='horz' type-v2='layout-flow' w='98400' x='800' y='889'>
+            <zone h='98222' id='29' type-v2='layout-basic' w='98400' x='800' y='889'>
+              <zone h='62333' id='19' param='horz' type-v2='layout-flow' w='98400' x='800' y='889'>
+                <zone h='62333' id='17' type-v2='layout-basic' w='98400' x='800' y='889'>
+                  <zone h='6308' id='3' type-v2='text' w='98400' x='800' y='889'>
+                    <formatted-text>
+                      <run bold='true' fontcolor='#000000' fontname='Tableau Medium' fontsize='20'>FINANCIAL COMPLAINTS |</run>
+                      <run bold='true' fontname='Tableau Medium' fontsize='18'>Æ </run>
+                      <run bold='true' fontcolor='#898989' fontname='Tableau Medium' fontsize='16'>OVERVIEW</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                  <zone h='17257' id='5' param='horz' type-v2='layout-flow' w='73004' x='26196' y='7197'>
+                    <zone fixed-size='245' h='17257' id='8' is-fixed='true' name='Timely Response' w='25300' x='26196' y='7197'>
+                      <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                        <format attr='background-color' value='#ffffff' />
+                      </zone-style>
+                    </zone>
+                    <zone fixed-size='227' h='17257' id='12' is-fixed='true' name='In Progress' w='23500' x='51496' y='7197'>
+                      <layout-cache type-h='fixed' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                        <format attr='background-color' value='#ffffff' />
+                      </zone-style>
+                    </zone>
+                    <zone h='17257' id='13' name='Resolved at no cost' w='24204' x='74996' y='7197'>
+                      <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                        <format attr='background-color' value='#ffffff' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                  <zone h='17257' id='6' name='Total Complaints' w='25396' x='800' y='7197'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                  <zone h='38768' id='20' is-fixed='true' type-v2='layout-basic' w='98400' x='800' y='24454'>
+                    <zone h='38768' id='23' is-fixed='true' type-v2='layout-basic' w='98400' x='800' y='24454'>
+                      <zone h='38768' id='21' param='horz' type-v2='layout-flow' w='50698' x='800' y='24454'>
+                        <zone h='38768' id='22' name='complaints by issue' w='50698' x='800' y='24454'>
+                          <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                            <format attr='background-color' value='#ffffff' />
+                          </zone-style>
+                        </zone>
+                      </zone>
+                      <zone h='38768' id='24' param='horz' type-v2='layout-flow' w='47702' x='51498' y='24454'>
+                        <zone h='38768' id='16' name='COMPLAINTS BY STATE' w='47702' x='51498' y='24454'>
+                          <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
+                          <zone-style>
+                            <format attr='border-color' value='#000000' />
+                            <format attr='border-style' value='none' />
+                            <format attr='border-width' value='0' />
+                            <format attr='margin' value='4' />
+                            <format attr='background-color' value='#ffffff' />
+                          </zone-style>
+                        </zone>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='35889' id='25' param='horz' type-v2='layout-flow' w='98400' x='800' y='63222'>
+                <zone fixed-size='342' h='35889' id='26' is-fixed='true' name='complaints by media' w='35000' x='800' y='63222'>
+                  <layout-cache cell-count-h='6' minwidth='200' non-cell-size-h='59' type-h='cell' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='366' h='35889' id='27' is-fixed='true' name='Complaints by product' w='37400' x='35800' y='63222'>
+                  <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone h='35889' id='32' name='Dispute' w='26000' x='73200' y='63222'>
+                  <layout-cache cell-count-w='1' non-cell-size-w='1' type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+            <format attr='background-color' value='#f5f5f5' />
+          </zone-style>
+        </zone>
+        <zone h='5500' id='37' name='complaints by issue' param='[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]' type-v2='filter' values='database' w='35900' x='60600' y='1125' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2200' minheight='2200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='41' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='40' param='vert' type-v2='layout-flow' w='98400' x='800' y='889'>
+                <zone h='6308' id='3' type-v2='text' w='98400' x='800' y='889'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#000000' fontname='Tableau Medium' fontsize='20'>FINANCIAL COMPLAINTS |</run>
+                    <run bold='true' fontname='Tableau Medium' fontsize='18'>Æ </run>
+                    <run bold='true' fontcolor='#898989' fontname='Tableau Medium' fontsize='16'>OVERVIEW</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='147' h='17257' id='6' is-fixed='true' name='Total Complaints' w='25396' x='800' y='7197'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='147' h='17257' id='8' is-fixed='true' name='Timely Response' w='25300' x='26196' y='7197'>
+                  <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='147' h='17257' id='12' is-fixed='true' name='In Progress' w='23500' x='51496' y='7197'>
+                  <layout-cache type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='147' h='17257' id='13' is-fixed='true' name='Resolved at no cost' w='24204' x='74996' y='7197'>
+                  <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone h='5500' id='37' name='complaints by issue' param='[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]' type-v2='filter' values='database' w='35900' x='60600' y='1125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38768' id='22' is-fixed='true' name='complaints by issue' w='50698' x='800' y='24454'>
+                  <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38768' id='16' is-fixed='true' name='COMPLAINTS BY STATE' w='47702' x='51498' y='24454'>
+                  <layout-cache minwidth='100' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35889' id='26' is-fixed='true' name='complaints by media' w='35000' x='800' y='63222'>
+                  <layout-cache cell-count-h='6' minwidth='200' non-cell-size-h='59' type-h='cell' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35889' id='27' is-fixed='true' name='Complaints by product' w='37400' x='35800' y='63222'>
+                  <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35889' id='32' is-fixed='true' name='Dispute' w='26000' x='73200' y='63222'>
+                  <layout-cache cell-count-w='1' non-cell-size-w='1' type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+                <format attr='background-color' value='#f5f5f5' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EA29CAA5-6E10-4135-B550-C3E1EC12ED62}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' show-side-pane='false' source-height='63'>
+    <window class='worksheet' name='Total Complaints'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5141A653-6D88-4724-9385-97A2572EE3AF}' />
+    </window>
+    <window class='worksheet' name='Timely Response'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{07566342-F199-4C8F-B675-7522C27663A6}' />
+    </window>
+    <window class='worksheet' name='In Progress'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{F4B47BF9-0299-42DD-88CC-77335A6C820B}' />
+    </window>
+    <window class='worksheet' name='Disputed Rate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9A910806-DF34-4C51-AE83-873960C19036}' />
+    </window>
+    <window class='worksheet' name='Resolved at no cost'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0a524020ue0dzn16chpu31arefnl].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{14207506-8FDC-43CA-84F4-96DE296EA88F}' />
+    </window>
+    <window class='worksheet' name='Complaints by product'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{D7921F32-0FBA-481A-AC02-E51E1689B979}' />
+    </window>
+    <window class='worksheet' name='Dispute'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0a524020ue0dzn16chpu31arefnl].[none:Consumer disputed?:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{FA5AE1BC-7C6E-4A03-9394-83171429232C}' />
+    </window>
+    <window class='worksheet' name='complaints by media'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{5507B62D-D80E-483E-8BAF-49B589400972}' />
+    </window>
+    <window class='worksheet' name='complaints by issue'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0a524020ue0dzn16chpu31arefnl].[none:Date Sumbited:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A07CE122-8671-4DD1-949F-8C008197F939}' />
+    </window>
+    <window class='worksheet' name='COMPLAINTS BY STATE'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0a524020ue0dzn16chpu31arefnl].[__tableau_internal_object_id__].[cnt:Financial Consumer Complaints.csv_D0596DFCF3D74278B8C98F7BF02249E4:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{CD992035-5C56-4159-97E7-618EB27C9785}' />
+    </window>
+    <window class='dashboard' maximized='true' name='FC View'>
+      <viewpoints>
+        <viewpoint name='COMPLAINTS BY STATE'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Complaints by product'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Dispute'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='In Progress'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Resolved at no cost' />
+        <viewpoint name='Timely Response' />
+        <viewpoint name='Total Complaints'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='complaints by issue' />
+        <viewpoint name='complaints by media'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='4' />
+      <simple-id uuid='{A87A0CE8-43A1-4AA3-861F-CDDF32C68A07}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='FC View' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nOy9eXxcV3nw/72z7zOaRdJIGu2yZVt27NhxEseJs0JCQtiShgRoKUuBAinw
+      aym0b9u8UGjZ2r5AS2lZGkIohBKanewOiZ3Ee7zL1j6SZjSLNPt2597z+0O2bG2O48hL7Pl+
+      Pv5Yc+c5Z55z733uOc9znnOuJIQQVKhwgaI52wpUqHA20R39I5fLnU09KlQ4K+iO/2CxWM6W
+      HhUqnBV0ry9SocJbk02PPUTR48MgmWnwmDG6qnn5uae47Jq3kx8fpaZpUcUHOFfZs30bReVs
+      a/FWR8/Fl60jGRslFBrlmWefw2h1YM0P8eLuAbZu2zXbAMaCvWzcuHHy34uvogC7tm5mNJqg
+      mI6zceNGhsJxAAYO7+fwwOiRkoItmzby0pYdU3X1du9h44uvUBYAMps3biQnT36nlotse2Uz
+      u/YdQggI9nazp7t3quy+nVvYuPEliuoxvXbtPzxnM2fWBVDIJtj0+9/TFwxPyR3ev4uNGzcy
+      nikCEAsNsnHjRnqDYyjF9FS79x0aQAAoRV48Tuf5dIuPBXl1+x4A9u/ayqYtO5ksnp48h3Lu
+      2Dk98i+RkxGKzI4tL7Nlx2vIyvRg3P/5008QLc3Z3AonicPtYM+rL9OyeCnpTB5/bQ3VbjtJ
+      YcVrNdDe1gziCNlsVgghxH3f+aJwVteLDRs2iA3vuEsUhBAblvvFD3/zvAhuf1wA4qr3fUoI
+      IcTfffZO8dm/+6EQQojU0A7h9vhFldMjBpKyEEKIL370VgGIXz63WwgRE34QB2NCxIMHxapF
+      AdG5YrW4aGmHeHx7UHznix8Vt370i5PKyCnRVu0WDbVV4vGtA1N6bbjzs2Imc9V1aPtzot7r
+      Emsuu0J4XA7xf/75Z0IIIT575wZht9vE//vFM0IIIb7++Q8Kq80qvvid+0QuuF2AQVyxYYNo
+      qHGLD37+60LkgsJxROcp5tDt8fu+I9rW3iqEEOLODcsFGrN45fDYZJ2ONpFLDokNGzaItkCt
+      8NQGxIYNG8SO3hHx9rWdomvVWrH6oqXifZ/862ntunXtxSKYm97WVCIugsMjQlZUUS7lxfDo
+      2OQXiiyGhkdFPpsSg4ODYnBwUIQiMVHKZ8Xg4KAYGgqKfFGet0wkNiHKpfxU2aGRkCjkMiIc
+      jQshhBgLDYtMrihK+ezUsfOFOYdAK6977+ST6rH7Mc74ztd+EeNbf8srhyPTjj/16CNc+Z4P
+      c8vlzTz21Kap41ddew3f+ua3OP759u3/+0VqLr2dfbu2sWtfN2+7qG5aXQc2P4XUdiWfvusW
+      HnvssRNa+Vx1/f3/+SK3fPL/svXll9j6zAN840ufYyhVBuDd734Xzz77DCB4/pUDvOttq4+r
+      zcNDGzfywkM/5f6f3ctcD+CT0e3aKy/nm9/+/rEDjgAbN27kT++8mStuvpONGzfSyiBP7hnn
+      Vw89yrZd+/jpN//yhO3sP7CD/3nodxw6sJv77v81CoJHHvwNubJgItTPc5u3Ewn28PTGTQSD
+      Qcai4yQjQR5/eiP9Pd3ce+/PKalzl3nh1V0UkxEefvxpgsEgw6NjqLkJfvvYsyBkHn/w1+w+
+      NMBw73527Os9oZ5vNeY0gIE9r3LPPffwD9/9z1nf6cwuvnj3H/GNb3132vGHH32E6667nuuv
+      v47HHnl06vg1t30Ufd+zPLtraOrY3t37eMc73o5GApDQaqer8egjD3Pd9ddx/fXX8+ijj3Gi
+      mbq56jp4qJtrNlwLQMvq9QT04+zvGwPgoitv4MCmZ0mP7afoWY7HKB1XW4lNG5/n3l/8hvqm
+      JvRz/N7J6PaBT32e7Q/9J93hzLx6O1vW8OU/uo6L2+pYu+FGdh4aOUErYfvWLVx707u49vob
+      qTEX6B1J09bgYmA4ysDgIG1t7QBY7E4CgQC11Z7J3/H6ueqaa3FosiSLujnLHEVvshAIBGis
+      r8XsrkGTiZGciOJpbCc6FmFsbAy/339CPWcSHupl80svEkukePzp56aOD/V1s/vAIaKhIba8
+      /CKhiTwoBbZv3cauvd3s2bGFLTv2EA0N8eq23RTSCZ59/siDtTDB6ERh2u+EhvrYtvsAiViI
+      rVteZig0AcCel59icLzEoX27eOmV7QigkJlg27ZtdPcOnpoTfMfH/4xdj/6E7nAaACUb4onn
+      tvPjf/obvnvvwzz/u8fIHnXgtGa++IVP8Y1v/tNUeX9dLfv2d89Tu8Ijjz7Bc7/5MV/4yncZ
+      3P48+8LZeXWZq64aXzWHeiaPZUL9hHMG6mvdAEjmatY0lPnnH/6a9dddP6O2NN+85yv0ps08
+      9qufIDGTk9PN4Kjj7j++mW9/70fz6q0KLV//wS+Ijo3w7ksCfOQzfzGvLIAslzEYDJP1GwzI
+      5TJtbW0MDg4w0D9IW1sLALl0kmAwSCQ2eQNEhg5z370/xVTXRbVDP2eZqd8o5AgGg4yEIyDp
+      qfOZ2b2vF3/rUsqZGJFIlNramhPqOZNYIs+6K1YSHprA76uCcp49B3pobF2MWkzjq63HoNVS
+      SMcZGktTX+vBaDSAwYzZAD5/I0ZJxWR34XFYAYiP9LJxy252bNnE8089S1YBf2MrklrE5XKR
+      SyXIplP0DY3S0dJAtqRSUnQ0Wox0D/WRVQx4HGYMUmruMGjz8ku555575m2UweHncx+5hS/8
+      w4/59NJ38uozj2Jsv4J/+eZXAZVPvv8Wnt/WNyX/rj/6NF/+SgtjRz5/7ot/zRXvuAsSA5jV
+      NH/wma9OycYPv8qWESMPPfQvGCX4xy99kscef556jvVMzcsv5cPvu2neuu7+/Be47VOfJTW4
+      k1ee+g3r7/w0XbXmqd+44Ybr+LOv/jOPvHqY32w5vpfz8NDG5/Ec/ZgfBuD737wHjxnueu/b
+      5tRthWH2OfqTu/+ClrYu0DXNeQ5Hdz3FbV/4f1x/5Vr2vraf9vZL5z3fAIsWdfDypt+zoq2W
+      vlCatW+rwaKaeOblB9HobdQ6jQTDx3oAg9kK+RjVjR1c1GBi10AKRRE0trbPKnOUoz2ApJts
+      UG2tny179vDOO9YQPriVkayEzzFXvzg/Zr3K5pe2UtO4hL2vdON017B8STt93fvo7u4hmxhH
+      Nblo8VRjl1L89yOvcemla0iEYxQwMTrUR3d3N95a3+T/9QEaahuw9A9N+52hvu7J76uqsDrd
+      lNUySxoD7Hj2FYaNCg36FN3pMteu6GKifx+v9Y2xZuUStPccudNlWUavn2xcTaCNlUs7pv3A
+      ykvWUedzYbR7WHfJSrq6utBbnFx99dWYtArrrr2Jm2+4mubmFhrra7C4qmlpqKZt8XJaGgMs
+      62ylqWMZV199NU2tHdx12y2Eh4epqm/n2isvw2LQ0dC2mCqrgY5V67jzPTfT3NxMW3MjGCx0
+      LW7BaJj0SFw1DVP6+QKz6+q6+HLecc1qhoaG2XDLnXz9r+9GNzlGomPpStau7EJf1cxd77kO
+      rQTtS1fSGqhBY7Rz9dXrpg99NEYMRw7UN7Wx4pK5dGvFU9PApauXA7B05SUEmppZ1FxL5/LV
+      XH3lpWiPVNfQtpjli9uw+QI0ei1EYnEuuuJG/v6vPodBd6xD/uWP/oObP/wJjt5v/sYWtHKG
+      WCLHlddcS5XNhEZvxiDJNHcswed2AVAs5EmlUsiqhlqfG73RQteKizCoWQqqjiq3d1YZk8WO
+      z+NCLhVJpVKk8zKBulrMZjNavY1FHc1YDFrctQHqqr1vyADcvhoCTS24XXa6urqoctoBqPJW
+      09XVRWNzG00N9ZgMWiS9hRVdnbhdDgJNLbQ0BbA7q+ha3oXD4Zj832YBg43O1nr89Y20tLVi
+      0ICzysvyri5cLhd19Q3UeN2AhL91CYsba/A3NNLW2owGsFRV09negsNmRxJiMnCYy+UqM8Hn
+      EO+6dDX/unE7DebXl61w6lQmws5R3v+xP8FxHs/Tx6IxoMzevQeZGA1zzKUtEw5FCYVDc5Yb
+      DYfnPH6qTOsBNJqKPVRYWFLjEQ4c6KXaX8NEKo7X7Wc0FEKjM7J29SKefug5amr8mLxO6tsb
+      GOsdJJNREFKRzqZqYmUnxWSYQjqJ3uEjkx7HYbUhCdBpyozGs3jsehSdjc725jes37RnjKqq
+      C9XuChUACA4NER89QF5bxdq1yzi48SXcSy4jGx5AVVUCHYs4tHULTcYlpFJ2YokMBo0RIano
+      7dUc/t1DtF90Cd09CdRQitpaJ8lEgnyuQDoxhs3bgNFkZ2B0jEWtjW9Yv2k9gNE4c9rr/Kdc
+      LqMoClqtFp3uPB5zzIGqqsiyjCRJUyHWhSaXGiccS+Dx+bHbjRRzJUIjg3hqAzjtJvK5EoVs
+      GpvbQW9vkIa6WiQ0CEnFZrURj8fxeNz0HDqEr7YerVYiPR5F0dvwWLUEo2lqnEYSBWiqnz9E
+      O991vuCdYFmWpyJgR6NgFwqKolAsFtFoNJhMprOtzmllvutcGfRXuKA5pT4/mxpnf3cvNpeH
+      gM9B/3AIX22AUipKOJ6guW0xFOIIow+blAeHD6sOQHBo/14MDi8uk8RwKEptoJXM2ADe1iVo
+      MnFGM2VEJk6hLGhvCZBWzVQ7jMQjoxSFkboaG9FIkWh0mCXLljIWCpNJRZlIFWlubiQcjlDl
+      q6Wh9o3Fq98ooeAAw+EodY0tGCRBIRXDXr8ISzlBf7yIXk6SL6k0NwfIFbVUmWXG83o0cgqn
+      z894eIjYRIoqXx3lTJx0vkSgsYnhwX6M9irMUomJdA6fv5FyNk48kaG9cxl9hw6ybNlSQuEw
+      opQnnsyyuL2RXQcG8Ho9tDbWn9Z2z6Y463rU+mvp7d432f7WJroP9GF1OVncWs/+fQcx2qpo
+      b2ng8IF9FCUjHXVO9g1EcTpd2A2C6HgSb009uYkQWUVHW52XnqERfLUN1HpdC6r9KfUAVocb
+      q83Kko5WBoZDLO9aTjQUpLG1A6vNRrXbQSSeITzcS24iSu5IWkS4txtX02KaG/wMh2J0LV9O
+      KNhHTi4R7BtkMByjkElQFho6mtwM9Q4STU2mLocicaLhYaBILJqimIrRMxgmHArTvngRNmsV
+      ai6NqjdRV+OZX/kFwh9oxma1Ul/jJRaNkSmUCQ320z8cQc4licaiAGhEgehEDp3ZyejQIUJj
+      MfQaiCczLF3SSWQ0SDQaA0AtJIhlVQL1dSQzBZZ2LiY8PMB4ssDyZZ30dB8iNxGmbyRKKDzZ
+      9tr6RvRyimi6iEY6Gx367OsBUFJhUVstwb5+zFX15NIJeg8donXJcjS5BL2Hu3E2LqKrs4Ni
+      Kkp181JS8QjR2OS5kDQS4fAYjYEAkegYepOdGo9zwbV/02dMzLGphFpKERwZY2gkPC1ZTCDg
+      SIbNtHIaE5IooNFokIBEbIzhcZVFLZ6jFTISHCE4NELpSKDK5PAhp6Icv2akurGVzsYaduza
+      82ab9caRdEjIoNGgAewuL8uWLcOsP5pRJOEzlbDXdwKglvI8/8yTeOpbMdtdLFu2DKe3nisu
+      7mTH9h2U8mkOHO5jybIl086V1e0nPz55XletvYzs6EFGkzLNbYtpDryxRLWFZOb1SI1HGQzn
+      6FxUR+/+HWRK2unXXAgol3jsqckEud2vvoBqdoHOyLJly6h2O7hs/VUcfG0n/tbFNNY42LXn
+      wILrPWcqxMlitVqxGrV09/Ti8wewWSYdKSGXaV3WRZPXTklrZjQ4ODndXlND8PABsiVBdZWV
+      nt5+/IFWLCY9DosWs6sOs1GHx1dNoN6PBAwMDCDkIq3LLmZJk5dUSYfFYMRiNRKo95DMg8/j
+      BDSopRy9QyP46xqwWU9uClVVVVRVRavVotVqX7/AHOcAwGK14LIZMNh8WM161FKe0XAEq8NN
+      ODiE1mDCYbNisjkx6kDS6ulasZJELIxRKxgeDaPTauntH8Bb48ft9tDc1IhWo0UpZRgIjtLe
+      uQS9VqK+2kVa1pOOh8iqRpobahgaGKAol6lyOk5adyEEiqIgSdKbjIDpZlwPF0azhUBDPRLg
+      rmnEZwO3P0B/9wG01ira21sY7j2E1emmxuehvm0ZhlIKs8XE0FAQodEx3N+D0enBIAoMjUSo
+      a2jEaj61SOV817kSBapEgSpRoAoVLlQqBlDhgqZiABUuaBZk7j8VOsw//fD+aceOLlrZ+eKT
+      PPTsy1PHr37nHVy9esk02RPJlPIp7vvp/dz+8U8dyY0X7Nm2mWdf2ES6oHDZhhu4fv2aOVZv
+      nXkSkSD3/+JX5ISJ99/1AQI1VQAkY6P86lcPEEkVue7Gd3H5qs45y+dTcX56/2/5+Kc+NrUm
+      4cXfPcjm/SN85KMfw+ecdOx/fd+PufZ9f4THcu6mboh8BPnwM4hcGm3jVejqJq+nyIaQu59C
+      lBV0Ldeh9TWBUFCGX6Ec2gfo0DVfjba69YzoeVp6gGce+m827TgIwEO/+glb9p54IfV8Mr97
+      4EesWL6CP737SxxZ0w6M82cf+/8Ijk1QyiW5+4O38s/3/W6BW/DGyY8Pse6ydezqGWVg38tc
+      dvlVjCaLKLkY69eu5YWdh8gnY9x5ywbuf3LrrPIP/OjbLF+xgru/9I8cbeqBzQ/xlf94hPZq
+      LX/4iT8HYOC153jqtcg5ffNTDJH92e0o4R4oZyg8/HHkwf2I4hjZX7wfJT4MxRj533wQOdiN
+      SB+ksOknUCpAIUr+wQ8iBw+dGV2Pbg9xdFuUN0sxOSJa6utFdygthBDig29bKR58sfuEZeaT
+      +dm/f08cHuoXbQ7HsS1CVFWoU3+Wxd988jbxt9/91SnrWyqVRDabFaVS6ZTrEEKIp//7u+Ld
+      H/vy1OcvfvgW8dV/f1Ckg9uFv+NSUShPav0vf/Ux8Rff+K9Z5f/9e/8khvp3C4ejTRxt6o+/
+      /nnxbw88K4RQxdorLhdClcXdH/+IiGbenK5HKZfLIpvNinw+vyD1TVFKinLy2F4yxd//rci/
+      +huhxLeJ9L1/LFR18lwUnvsLUdj5hBCqOiWrKgWRe/AuUezZtbAqzXOdF7wHuPf73+Ty2z7F
+      oloboHLg0GH+/s8/yttvupmvfvvfyMkzU67nl/nQJz5De2BGhp8kETv0Khs2XEVLoJEJ3+X8
+      1Z/evtDNeMO4q9zsf20rI7EkcjFPXSBA94F92Bou5tuffTtLOpey/vI1/GZXhi9/5q5Z5T/x
+      mc9PDZmO0rF4ETt2vkZ8eD96i5+XHr6fy2+9i7/9zB9y+wc+xlA0faaa98bQO9A6PICgfOhB
+      Soe3o198DRr3xRgWd5L9r3eT/cVtKCkdhq4bQJJQhp8n98CHyP7H29A034W+7aIzo+tRS1iI
+      HqCUDom2+jqxNzgxdWz3tpfF888/Lx5/+DfihsuXi7u/8oNZ5U4sk5veAwghCqmYeO7ZZ8VP
+      /+N7Yu3KLvHzxzadus4L1AMIpST+9rN/KKxGvXC4a8TKrkXiw3/+DZGLD4nLLl4l/u2nvxBP
+      Pv6QuGH9JeL+xzfPXUcuOK0HEOWC+PqXPitueuf7xEuvvCK+dM83xHe+/FHxwwdfEtueuFfc
+      cfdX3pTKp60HEEKoxXGRf/QTIvPAZ4SSnNxMS80MiszP3iuK+54Qcu8zInv/baI0uG/yu+yY
+      kAc3i+L2H4nMT28RcnhgQfWZ7zovqAH81zf/Qtz2qb+d+qzIJSErx7q3x372HXHDhz43rczr
+      y0w3AEVRppXf+OsfiPW3feqUdV4wA5iGKj59+zXiu796Tmx+6Mdizc1/PPXNo//1LfG2P/z8
+      3MVmGsBx3POFT4pDoZT49B9cJV4dSItyZJ9Ye+tH35SWp80A1LLI/c8dIr/lN8ePboR84D6R
+      feSrU59LO78vck//i1DV6de0tOVbIrfxPxdUpfmu84J5UuVslK9/9+f88sVjeTil6EGWX/MB
+      br7lJizaMvf/7Od89Ue/BeBf7vkc9hXv5AOXV88jk+M793yTNGXGi0X+6Wv3UF/fzDXNej71
+      jz/jmisuQUeJB35+Hx//yn8sVDPeBAk+dOvHaV61lP69r7J92MA/vvtqNKkWEn/6JT7wsU/T
+      7LXw83v/i7/+118D8JH3Xc2H/+Y+rlpk5p5vfh/KKYrFcb52zz3UNy/nUx9+HwBbfvdzinWX
+      0VFrZ/36DfzkB99nszHElVdccTYbPC9qfBvlUAhDXZjSK/8GgKZuHbqGdagb/5380xIakx55
+      70MYb/w3ynt+hNyzB23NYiinkfc/hvEdPzwjui6YAYwODfH5r32PVc3HMjFN/uU888gvePjR
+      J0gWVH75+AtcvqoTJRfh33/+BL975WuYvNY5ZeDoCzt03P2lL03Vueptf8C39C5e2bqLkrDx
+      n7/+HRsuPUPjxRNi54//5P1s3rmPK2/5EP96xx9gM0jgbWbbzp388kgY9L8fe4F1Fy8F4JJ1
+      V+NzHZezpHPwpS/dPaNeQW+4wJc/+xEA7vj03yD97CfElQBf+/BsX+KcQOvCsPqOWYclWyvW
+      Dz0wGQaVFcy33Y/W14woL0KyvIgS6wN9Lebbf4HW+8aXN54KZyUX6Llffo99LOGz75+5M9uZ
+      p5ILdGHnAlWS4SoGcEEbQCUVosIFTcUAKlzQTDMAcQG/MviNtv2NyJ/Ouk+3LucbM9s/a2Os
+      U1kVdaZ5+tWDXL92MZK0cClwg7kCD42Mn7S8qqonvZPeG5E9nfIX6SXW2k04nQu/tvatwszr
+      fA5nVM2NEIJv/Pw5mus8dAR8C1ZvsFDi2wMLu+/kucYfWjQsC3jPqAGIzBDlyBCSpRZdbTtK
+      eBdqMoamqgElfBCN0w1aB5LWhNY/d5bsQjLzOr/lfIBoIovVZuPVA8OnVP7v732OeLLyUvAz
+      hZpKoGtZj6ROnnPJ7AK0aFzVaGtWIumtiGwMNXkYJRY84/qd0wYQSeQ4GIxTKJVRjuxbemAo
+      zrs3rGDv0DjfeuAVJtLH9hWWyyoHg/F56zswFGf3YIxsUZ5XpsLCovHWo/S/BOZq1NwEIhtD
+      Mpgne4HqZrS1S9H4liAZrUgG2xnXb9beoDN9gLKi8kp3iPVLT27DpfFMAYfZgE775m3rR7/b
+      TTJbJJrMU+e18/G3L+ef/3c7H31bF9/4ny00eu2MjOe465ollBWVe5/ei92sp8pu5n1XdNBc
+      7Zh6/9jegRj3P7+fXL7AZ961mo76yRnro/FhjUbzhuYB3oo+wEzZo3uDXkjzADOv8+v6AM/u
+      HuaRrf1cusiPXjf/SVZUwcvdYR58uZf3Xt5GndtKa80b2KID+NHT+7nhogDN1ZNvEUkWFT77
+      rosx6LQ8uWOQv7xvM9evaKCmysrf3bUOh8VATyjJxr0jZAol/uzdq2n3O+kJJfjHB3fwzkta
+      cFiNvLhvlIlMgb987xp29YYplWfvgv1Gt0U5XbKnW/6tEOQ4nZxwW5SZPcDvD4TZfCjCukU+
+      CrLgisXVWI06RidyJHIlFvudHAqn8NiMbDoUwWHUsqLJzS829WEz6SgpgmuX1RGMZ9FpNVy9
+      pAYh4PjgTa5UxqTXciiUYvdgnESuxMWtPoZiGQYiab5wc9eUbDCWIeA9uW5yOJ7hhQNhbEY9
+      t6xuRC4rmAw6thwOY9Rpuahl0oGuzARf2DPBJzSA+zYP0Oy1sL7Dx882DzA8kefaJTW83BPH
+      atTithrRaQSyIqh3mVnX4UWSJMqKilYjkS2Weey1ELVOE8HxHIv8Drb3j4MkUWU1UG03sn80
+      Ra3TRKZQ5qbltVRZDTy7P4yqgt9l4uJm94KeiIMjE+RLZVZVDKBiALyOAfx6xyi3Xzz5Eut4
+      pkQ8W2LXcIrrFnuxmXR0h9N01TvQnEQ8fn8oze6RFO9b5Uev1TAUz5HIyxh0GkLJIk1uM60+
+      60K3exZD8SyxTIGLm6b7ABUDqBjAlAGUVcGT3ePU2Q2sarAviAJCCIQAjebs7t8QyxQZThRY
+      2TAZC68YwIVtAHM6wTqNxM1LFnaHZUmSWMCJ21PGqNeivcDeBFNhfs7peYDTgc2gpcNbefdo
+      hUmmPQrFkd2Cz3f0ElPtrLwY8MJmmg9QocKFxgU3BKpQ4XimDYEuxCWRFzIXUhRoPio9QIUL
+      mooBVLigOecD4sMDvWQKMk1NjRw+3AcaLV1t1bx8MMoVqzp5adNLrGhrpG88j9lgxGLSEWho
+      AAQvvbSJK9avZzg4jAWFmNDjLBfBZaP/YA/+QBNKPklJ0dKxZBGDO15gT0xCUy5hUAtcf+M1
+      PPvCDt5+3ZU89fRTOEw6ypKe9pZGXt6+n6bmFkaGennnLTfz1FNPoxYzOL21tHcux1d15lN7
+      zweG+g6TKwmamvwc7hlC0urobHCycyjL2q5WNm3aRFugnvF8CYPRglEHgYYACJmXNm1n/frL
+      CA4Po1dlchozejmPyW6h53AfdY0tlNJxyhhZ3NnOgVeeOvd7gGxJobOzk1hwmPauLtq8ekbH
+      c2QyBXLJMQqYkAs5ygKKxQK5fB6ATGQIj9vNYDRLPp+nlCtRLCRJpbPY3D68Hi/NgToURUGj
+      N6AFsokY6XyJ+ESCS7oa+do/fJ8Vl1wKwFhkjHwmzXiqgM1qJDoWxmixMhoKTX4/FiEyNgaA
+      RnNhZ1y+GfJllc7ORYwEQyztWka9DSLpAulskWx8FFlnpZDLI4BioUD+yPWODPXjdtuJZmVy
+      +TyFQpl8ZoJUJofTW4PH46WpvhZFUdAZ9GiA1PjYuW8AxXweWS5gtpqIRCcIj2dxmrU0Nnh4
+      edcAgWoHoKGlYzErlh1bUtc/GkOj1RAZ6pk61tLWRl9P37T6a+obcZAhnpucD7jokitQC0k8
+      zSuoqXHjdximZJesWsuaRgOPvdzH7Xe+nxefeRyf1UAsnUEVElqTjcsvvxyPszLRdqoU8wXk
+      YgGbWc9YPEU0WcBmgMZaJ68eHKPebQGNno7Fi1nW2TFVbjQ2gVYDQz3H3jPR3t5Mb8/AtPrr
+      As0YSymSR9ZEnfMbY5VLeQaHx2huaWZ8bATJaMfrMJIr65ALmcncDg1gsKDXQG+8QNMAACAA
+      SURBVGxslHimRMBfjcViIZvNIkkSWkBnsZCKxXB4vRSPtHc8GiZX1tDgryYzEWXPwR6a2jqp
+      q65idDREXd3ku3fDY2EMlOkPJ1m1fDF7d+2iuqmDmioLO7fvoqNrJenIEIOjkbfMEOhcjALJ
+      hRxDoSgtzU1EQ0H01ipcFh0lDBRzafT6yae3wWJBA0TDIyRyZeprfdOu91GZRCyGy+ulcOR6
+      x8ZGKWGgrsZLMh4+9w2gwunjXDSAM805PwSqUOF0UjGAChf0ZlkVA6hQMYAKFS5UKgZQ4YKm
+      YgAVLmgqBlBhFuVymUKhcEEsFjrnc4EqnDmEEBQKBcrlyXfVy7KMwWDAaDSeZc1OH7MMoGf/
+      dnSuFpTEYWRLG2Y1SU2gmXQ8hMbsQiqlUbQWHCaJ4UgSj9WM3m5jIjpGdV0j8dAQRocHt8NK
+      cKAfj7+RXCICBhveKgdjo0GMdg9aJUdRGBDFNGanl/GxUfyBAHJRARTkQpZcWUMk2EtNYzu1
+      vun7A+VklQf2Jyko5/9T6lS4uNbM2ro3NrGpKAoHd2xhIKNiE2WEKLHmiqsuLAPQWz0ohQQa
+      rQ5JzpHI55k41INJo2LIFRHlEqH4MNVuByoSiVIBKZ3EWeuld9cOLI2LSYVGqbIGmEhmiaUP
+      Y9KDwVDAW2VnYmKC5GgMp91MW4OX3gkN9swAVn+A3t59aEU1SGnKiorRYMBid826+QH2RAr8
+      cOfJ7+d/ofHyYJK172l94+W2bSGag6YqK7LZyeXnwE4ep5NZBmAymlCLKXSORtITGYo6A2aT
+      EafFiJAgEc9htVgx6iV6R2IsbW4EvR6rxYLL6yESDiIAtVRAaA1YTEac9qPT7CrlssBitWDQ
+      qMSzKmo2hs5TxejAAG5vDbHhEHqbHXeVEwlBuZQjHB2fZQRr68z88KY6CsqFG8M+Ea0uw+sL
+      zcGl66/DgEpa0WCmRFERLMzOUOcmp5wLFAkNk8grLGptOnZQKdLdM4Cn2o+36uQ3xq1wdjia
+      CwSTy2GFEJTLZYrFIkKIqRyh83lD3Uoy3AXMTAM4ylFD0Ol0C/oaqnORWUOgzS+9gNniZNmK
+      ZYyOjFFf42U0MkZdfSPxcBC7x09mPIzZ6aOYjtPTP8TSZcuIxSZoaWmimE0STeap9jiJjkWo
+      a2wkFBwgU4LW+ho0Bj3ZbAmDXkM6EaO3f5jmGg8JrZnmujoy4yHC4xnaG+soqBqqHHOnFZ8v
+      TnCNVce7FznPiV3zjiJJ0gWzTeQsA/DU1FFnhS27DmDX5MmMp/AvaaFn76to3R0kBnuRC1l8
+      eivJdA6vx4PIpcgV8pRUSExMMHBokEyzn2avndd2HCCwuBU5FkYrcuzaOYrRacGq0yOXi3g9
+      XuwWLYrZQ6j3NcqWAHazTPehHpavXDWv4ueLE6yVwFFOYVjgGRmjRrB2cePCVnoeMssA8qkJ
+      gqqbzgY30UQWu0ZDcGCAuro2xkKj2FxujFqJYrGIxWymmElSlPTo1SIFWUUul7FbrZhtDiwW
+      Cx63Sjg4iN1mQ2vxotUP46KIpaaF7Pgo+VSSnOLAYbWQc3qIRMNINju1dfVoRYl0ToBSxm6f
+      3hOcL06wx6yjrerUHNYKb57X9QFyiQQ6l4vKJTr/mM8HuJB43Zlgi8t1JvSoUOGsMM0ABvt2
+      09ufZc1lqygXc4hyEa3ZhUE7OcyIhEaQDFZsSgbqOsiFBvEHmtBJgoH+w6jCTG29H1QZoZQo
+      5HNIJie51AQuTzWldJySZKTW5yYSGkZrdqJTC+QVLQ6rCZ0kIQuFWCyBTlKpqQ+gm+d9AmfD
+      CZaA61pstFedvzOjFxrTDKCptZWSnCYy3IuvvoHQWB6kJFqNBiSBBi3VugJ94zJGuYdsLkdB
+      hDCRo7o+QGSgn+GwFak4TjqbZmmTm/BEjLzWSTHUiyJbEFKKWp+bRDaPSGUx6iQGQ3Eaan0I
+      jQZJkdHJZYx1boJjWVr8c0eBzpYTfDiS5l1N535cvOIEnxwzhkBazBYDer0Hp83BqDKI1uxE
+      kjNM5GTqPA4Gohn8niowmymVyvg8LihIDA0OYbO6mIgMY7bZqaurR6sXmExgMlsh52I8EiFT
+      nuxNUuNRHN56yqUsVquFpjo3e/rGqfM60cllLFYr5VKZdK5wzjjBErDUa8K60CGbCmeNMzoR
+      1t/TjcHuob7GSyKRwHWcfxEfG8HkqsVqPPefrucLb8YJzhVKJDN5PE4rBv3crmS5XEaWyxiN
+      hnnfY1wulymXyxgM88vIZYVEOofNYsRsnDscUy4rJLN5rGYjJsPJz2FUZoIvYE7FABRFJTye
+      JJUtAJOvvPU4bPiqjmUMqepkWrV8JK0awGg0YDouq3Rm6jUwZ+r1eDJDMpPj6LJlq8WI12Wf
+      HJYfIZHOkspM7hYHYDEZcTut02TmYw7TVdm+5VU8/ibioUEa2xejVRQwmnGZdZTQEx0ZxFVd
+      RzE9jqqzkBwfw+XyYLOYiIwnaayvYWBgiNr6AMnRQ4RlBx21NtJFqPVVkZqIkS4KvA4ToXia
+      ao8Li0lPvgSSWmTsHHWCV1SbWNdw+t9keS4z1L2f0XyJsaSKiSLZaJCGi66cYQBFnnjiKVZ3
+      tdMTijA6NELXqrVcvHzRlIyiFHnyyWdoaw0wHh0jWZC46srLpxlAKnSYZ3fHcSphFL2Lks6B
+      S6ewdu1F03qC7Tt2YySN0R1gLBikpn05dqsJ7UkMVecwAA1er4dMNofd5cXnNrB9+ygOxzg2
+      t5FdwSJLFjUTGtyLMPhBCaORJMYTE0zEFew6PfsH+mmrdjIYSlFv0lHjCxAMHkQrgddXxVh8
+      Ap2iElHMhHp6UdRmlJJCXVMrY8GRc9YJbrBqULreGmuITpcTbLcUefi3O1nWYSZedlCaCBHd
+      upPLO+uPkyqzddOLGJ0OlPw4eo2etib/jJrK7N/6e0LJlTh0ei5fZGXrQJIbVhwzpFSoh729
+      GZrk3aQlPylDDc1Wwdq1F02raWy4H8lqJPz7B6lf0kwkXeZkmbMHkEsKGo0Wkw6i41nq62sR
+      5XF6hyNUewIEBweQJBMiE6OgCmp9bgQSep0eCwJVozIwGESyNmO0u+kbHcSul0gXQQuUcmkK
+      OiuuchmrzYqvronuXTtZ1KEhaz93neBmp4Fq61vDAE4XltqlOI2b0GRkalsaOJDwYVWyM6Q0
+      bLjqYpJZgb/KjVk/1w2p4ZKrb+RQ9z5MPh/betOsv2F6BrHR5qbRp+BUF2FQTCxramLf/n5m
+      jgkuWtLAiz1FVJeLdr+XlPHkgxRv2AeQ8xl6B4P4G1qIjw5idvnwV89YrZWeYHA4THP7Ysz6
+      2crMdIBz6QlyZR3eqvM58/zc41R8ACEEyWyeyHgaRVUxGnTUup1YTIZpMrJcpnBcWrXZZEKn
+      006TOZnU60JRJpZIU5LLaDUa3E4rNotpWpZqoSQznswglxU0GokquxWr2XhSmawVJ/gC5s1E
+      gRRVJZsvYp9xMx6PEAK5XEZ/grTqk0m9FkKQzRcxmwzzOrZCCHKFEmajft5o0lzMMoCD+3eD
+      Ro/ZYsVitmKxGJlI5SgXM0iSjsZaK4dDYNdlqaqpJxkZAZ0RtAZqvA5yORlZLmIwGMhkMwz3
+      91HXspjocC/+lsV4nDZGgwPYPX7sFh3Dg8M4q/1oxWQ3qdFI5HIFlFIOs9OHzTx32OtMO8Fm
+      nYY7ljox6c6fOYCFzgVSVfXIC9Hnf/Ie3YXuRDKqEEivIyOEmOo55tdHUFZUDPr5Q+tzDmgl
+      wEyeoQkd1niEKpPEWE7HsmYrfYNRSrkiPUWBJyujQ6ZQSGBz2MFbxWhwP6OxAoE6L3JZxuZw
+      U+N1MRG1kIyP4XGYmZhIMhpLs2ZVC/migWywHwkNkgBZztHc1MBQQkObZ/4TcDacYG0xTZPt
+      HErcPwFnciZYCEGxVKJQKCJpJCwm06z1BJPDIplisYgkSZhMJnQ63SyZ0gwZvW72LVqSZXL5
+      AkJVMZtMGI2GWcYSS2TpGYlTkhVa/FXUVzvRHCcjhCCTK8w2AKujavKVM/k4quygPFEgksxR
+      7bHS3z9Kbb2fdFqmHI/h8/lQSzksljK6Iw0ulxSWdARIlyXM+hJSucRYPEFVVRVCAtQSZaHF
+      aplcJxwNj1Df2kA+GSEna6mrrcVic6IOHCCbNaM1mM4JJ9is09DlO7lx5YVGNpefivkLVZDJ
+      5TGbBKbjQpXHx/yFEOTzeYxGIwbDMZn8HDJihkyhWCSXL0x9zhUKyMpkCv5RhiNJDg/Hpj73
+      jMRJZgt0tdZOHYsnMxSKpbPtA5RIJMq4XBXf42ywUEOgdCbLbx95hGR8CJPGzttu/wDVdiNm
+      07GY/q8feIDhvn4aO9oolUpotXpufOetOMzHZLLpMD/8wQPc8PZVPPjQTtqWNHL7rTdNmxvI
+      Fwo88tvfcukVy/nG937LV//6bvQ6LQ7bsQdkf2ic7l0v8eKuw3g7r2ZlkwuX3cyqjropmehE
+      kv995NGzvTOcoXLzn0c4fXU0VVvJlWf3yga9SmeLl30jeW66fjXJtI5Z0UphYNWaTnbvPcji
+      ZRehlnLz/tYrv3+ZpiqJfaMZmBUYnc18Eqcc1B7oPUyxrKJKerxVDhIT46iShMflwmazMBYZ
+      p7GxnqGBATy19djMBoID/RRUCZfDhpzP4vT5SUbC2Dw16KRJZ7anex/euhYMoojR4SWXiGB2
+      +nBYp7/B5Ew6wc1OAze2VUK086HT6Vh36aUkYyMoRg9+i4RuRjjzsrWXUdLZaIpF0Zp8vO26
+      S2aFPHUGE1pJy5VXv4MDu/ewbP3bZ8lotVrWXHoZsoAbbrYxPl5Ar5su47CYMHtbWX1JDYN9
+      PciBNbhs09/bZtTrufSStac+BBroPUyhWEJrdiHkHBICVZLQqKCRFLx2HT3jGha3VTM6GMNp
+      AZPHz0RkFFnOk0sVqGtpJBnPoqhFNEggCZAEHa0N/P6l13B6qtAoOXx1LbP2BXp1JMfnng6d
+      tL5vBotO4p7Vb61F4ifjBC9kFKisKOTzhSMxf+Oc0ZmjvydJEkbj/DKFYhHNCWRUVSVXKKAq
+      Khazedr8wlFKcpnekXHyRZmOgBe7ZfYajpJcPnUDCI8MkczkMVocaFGQEAhJQhKg1+twW2Ak
+      rSGfjoJkpbHGykB4ArvNhoYihWwJk8PGcO8QNU1NyOlx0kWVOp8DobcwHhrFXRegmIqhMTlo
+      apg+lS6EYE+kcEacYL9NR8Bx/i0KrSyJPM0TYcVcmoHBYfzN7TjMcz1BFRKJHC5XZXhxNngz
+      BqCqKvmijMU0OwQ5Vb+qki+UTjgrqygqmUIRx+tNqMmTk2WaeZIjhRAUijJGg27euYGj9ej1
+      xybdKjPBFzCnmgqRyRdIpnOoqkCv01LlsE4LeQohSOcKjKcyUzJel31aBqcQgkQmTzRxJKVC
+      r6PG7cBqmj5UkeUy+XwB5cgkm9lkxGDQTzOWYkkmlclTVhQ0koTdasY8wzBluUw2n0dRVLRa
+      DVazGb1ed3a3R5ez4+zqHkGSBGatgsNbR3YiQlVNAw6TRDKv4rJbyOVyuN1nZ3donSTxnsUO
+      PJYLOwnuKEW5zAvPPk3Z6EIqTJCRdVy57lIa/d4pmUJJ5qH/fYiuJc30xhRWdtazacsQ1195
+      bJ+nfFFmy5ZXSBY1WDQFoukyl61dzZIZWaOPPfwwFy1rYSBcIJEZZ80l66j12I+bIJP5zYOP
+      sGppG8MZmdL4KBqrj+vWr8Fw3GTcSM9uJhQj46kc1WYNzvo2GqtdZ9cAkpEorV1dJAYOU5Qk
+      AnU1HEhOkE1OMNw7RgE9XpuR+tbOWWXP5ExwMp1mre+tlQJx2maCyxOEYgKtNMDERJSSYqK8
+      7tJZYqn4AL9/ppuaznU8/PBTrLn6xlkyPb39XPv2d/D0E09QbdQRl2f/XCLWx7NPHiBNO+/6
+      o5uwMTOkWWb/9k2oFiv69AEymuXo4n3AJdOk0mN9/GpznNvfeSWbd+7ltuZ24Cy/IMMTaGTP
+      vr3oTGZ8dhODo2NUVVUBIIkqyloLdrMR2xz+w5maCdZKEhfVmOZdmHPBoavC75UoG5tpal+E
+      ppRHniPuv3jleoqJELVLVyDnkzRUzX4Rd1trM3v2ddPaXEc0XcYzh5u49OINFCdGKRuqee2l
+      F1lzyTqmJwXouPFdt5IumamqW088PIrGOntbeHttK3e+p4t8UWVlZ/vU8YoPcAFzqj5ANl8k
+      kc4e8wGctmnrcI/6CePJLIqqYtDr8Dpts/yEZDZPZOKYDzAzrRom1wzn8gUUZX4foCSXSWZy
+      lMtHfACbGfOM/CC5XCabO84HsJgns1RnGkBwoBej3UO1Z/qGWIVCAZPJdBoMRaVQkNEi0JhM
+      VJbEnznOiSjQyaZVn6Yo0KwhUE5WyURDaJQcJaEnl4hh99QyOnAIV3UAuZClxusiFE/jdZmJ
+      RMbR6TR4fbWEx8ZobV+EnJ0gFM/gtulJ5MpU2a2YdZBVID6epKHWzfDIGE2NdQwMDWEwuHFp
+      8gyXStQ5qzA6vZRzyVmO7/GEMzJf3xRd0CHQZX4Tdyya3VW/VbFaT9/6ZY1Gg9U8PWKTyOSx
+      GPVTu0RoNRpslunnczJSo5m6kbUaDQ7r9FnamWnVkiRhMMzOLj0+HXqydzC8rszMemYZQHxs
+      lNpAG7GJNB1+GwM0kZoYpspXS7k4ufRtYHAAncZEXKehxqqHujomeqNoNEdW8MQmWNTezmDv
+      IYZDcYTPi9soyJiqoCzT2zeASa9lX+8Iq5d3MDQQB7S0LVpM6PAhRGQEk6+V+W9/mCgovDZW
+      oKQunAGYNIKVJ0jBfith1AiWnUYDOB65rPDr51/jx4+8istu5vN3bGD9ipZpMqoQRCcyhGIp
+      dFoNDTWuWekJkztFFMkVCkiSBpvFPOuGhZNLh5ZlmXyhiKqqmExGjIbpMkfToWcNgWLxOF6P
+      58iyRQc93d3YPbXkEhG0ZidWkx5JKRFN5PBWezCjgN1ONpJkPBWnvqkdiklG4xmsOpXxrEyd
+      20Z4LEZ1QwPxSBx/TRWhyDj+Gh+hSASvtw6rrszAaIiGpg4GDh9g2YoVaJQi6eLcu0MfPakL
+      eP+jlaRzap/+081CzQT/5Q8e5YmnN6J31lHOTmByevnzO6/m9muPLV7vHY7R29ON2R0g2L0D
+      yeLhunWrqK46dl1T6RThsRhChaG+/ahGN1ddvnpaVmmhmGd4OIyiKsTDw9Q0d1Lttk9Lhy4W
+      iwz2HsTibWTowE7M3gCLmuuxWo+18VD3Pl7b3zu7B/B6PABTa3bbFy858kXVNDl39fRyFr8P
+      n983+cHkYZFzsp6jewV4aiZTUX1HhjXOqsm4sdN1rN4ljipQZfwNTZNpqloj9hNcF40kUQnO
+      nH1ig3tR9FUYlTSxw9uoWfl2UrnCNBlFFezfvQ1scVa0uDgYnnRIj0eIIlu2bKcsK3RWydCx
+      fmoF2fEyP/7ut7n+fbezc0cPtzZ2zCEDO7e/CvYoaiZGvmeIjqbbp8lUVTeQ3bRtjnRoVSZX
+      mAzIFgqFWV8fJZuZuRPAMWaVEyrDwyPTDiUSCVS5QHd3N4n0cWmvGj1et3Peuiuce2iNForj
+      QZIjPVi8NWTGhmalH6vFcYZCWcZG+nj44YdxOcxz1GQgEQ2SV5QT/l5zaytjYxO0NTp4eetr
+      zJwZUAtxeoazDAd7CQ8dIllQmG+gMDsMWopzaBT05RjJfJlat52i0KNV8mRKkB4PUxtow2LQ
+      sm/Pbtra2nD5AxTTCbT5CNtGBHVWGaE101TvIzgyhstY4vCEFnkixOpLr8Bp1TEUHKPWKjNK
+      Hc32IgcH43irLETH0/g8Lrx2A7GiEa997iS0N+sEX9lg4r1t54/DOxev5wQv1BDoJ49u4T8f
+      eQX1yHjUZjbw1T+5iXVdzVMyoViK0Vhq6rNWI9FS58Z5nB+QyxemrfaSJLBbrdP8gJIsk83m
+      pt3QZpMRs+nYtZRlmWwuP01Hk9GI6bihVCqTI5XNzzMRVk4iDD6q9CkGBgZweOuwmnSYDBKS
+      20egrobD3YepaQhQ31DHgd07cDR0Uu900qCxYyzFMQroGRjApNWC1kSgqQnZpsNpMxEbDeLx
+      N0BqkKH+w1Q1WMDioZiLkxgepSApeI124hlpXgN4s06wXQ/LXOfv+OlMOsEfuWUt61e08O3/
+      3khDtZNPv289Hsd0g/J7HThtJoJjCYwGHfU+56w8fovZhEGvJ5PLodVMxupnhjQNej06h/2E
+      6dB6vR6HXUuhUERRVcxm06z1CQ6bBZPRMEcPoOSIpyERGURncaJV8pQ1ZlxHBuN6FGK5MjaD
+      DqWUQ2txMTLUz/IVK5DUEgcOB/HXeNACKmVCY+ME/F5knZNsbBC7p46JWISmpkaUXII0dly6
+      HImyhVIyRDSapCZQTTw8hsffhNGgPy1OsFYjncQ6ovObSjr0QswEK0ViqeIbei/w0Um1CmeX
+      c8EA5HKZYlHGbDKi1c49gaUoKvlCAaPBgH6+nagVhUyugNlomHxozoGqqhSLJQzGY/sLndAA
+      UhPjWFxuEpFRsrJErdvG4HCYptY2jHPsj5PJZrGdoW63wpvnbBqAqqpkcwVK8rEMOLPJiMU8
+      /cGYzeXJF4pTn40G/ayhUSqTI3Nc1MlsNOC0W6bJ5AsFisXSsXqMk4v2T5gMNzbajy6rUspn
+      8Vthz74Ei1d30H+4j85FLRw62I2rpp5CMoLTF6BcLFAu5IhEo9irrBzYO8bKVS1E4mlqfS7S
+      6TxaZBStGUoZ9CYr+/ftY/WlVyDKedLpLDpJoSgMDPcdYPHyi8nEx7B5avHNiAy9GSe40aHn
+      86vOf0M9nTPBb5axw1t4Yl+W5irYsmUX73/nNTy0J8JH7pieNfr7554kGs9g9/iwG1Ual6yh
+      ZcZSycG9m0g6uvAV+nhyb4zbbrwSi9mI8bjdoe/9wXe5+f138PD/PobD4WPVJWvoWtQyvwEI
+      Oc1ovIi5MIJBKjGiuKh1wPZXNrNkyRoK8UFMtYtIxvpQVEGjzcSh0BAGg5FFnY0MDsQJNExu
+      pKvTmBgZK7GoYzFbN79AVXUjVj0UFUEgEMBpM9HXM0R9SwfBngNEJqJU+wO49Tn2jRdpNmZn
+      GcCbcYLjuTIHY7rzetLrTDrBp0IpM8FEPIW+rMGqJHl4S5A66+wLEotnWdlk4Zev9GC36li5
+      +vLZdWUnyJpU9m7aymAoRfnGK2fJ2F0G/vfXT1JVX4VVVQlHYic2gGymxKVXrCObiCOYnCBL
+      x+KsW7SYeDjy/7d3Zr9xZXd+/9ytbu37zuK+SdTubnd7abvt7jix43jmIQjyMkGCJEDeJ2/z
+      MPAf4SB5GAPBDBIEyAIniBHbgD32TLu77XZbai3cRRaXKta+r/fWvZUHam1SaokqiqRUnyeR
+      qrp1bvH87jm/5Xx/WKPjdO6tABZxfxIG/IF7p/gteLxBcnu7xEcSlO5ljRVRIDGSAIsdsdcC
+      UcJulak1O/iDYVRJQJZlAoEAPpeFkm4n7paxOw4uz+eDVv72X0weyQmWhKfL7g05flyRKb77
+      vp21pSVm3vsBzVYLn8d34HXzc+OsZuv8yXtv4VRFsvUuns8FRJzhKW4vfsbcG1/hm3aJcqNH
+      9HPNTecufZ16vYnHLpDO1/H79l8wLId+jTlJH2BfTvFeTU+//1iJ8qPoeo9Gq41hGAiCgMNu
+      PVDXo+k61XrrgTq022E/cCSy13t4tFIURey2fWnGJxpAIZvGkO1EAgf7BBvdFrpoxXqI9Pmz
+      YOodOrqJqDzbNYZRo+PhNESBTLOP3tOxKMpTy6E1TUdRnl7q3OlqqJYnq0MfpkR9qAHUczsU
+      TCcRt0qnWaNY71LO7hBLjLO2usaVS+eQLHZ293JEIlGa5QyGbGd6PMHWxioWZ4BY2M/G2gpu
+      t5tiwyDoVSmUm8SDLrbXF3GOLGAx6yxu1Pj2N66Q293CUBz0miUszgCCVkeyOinm8/RllfOz
+      j5/yOaoTbJMF/v0bbgLWV38L9LIywYOm3dVRZAn5CWHRQXKoD9BpdbD7vFy/uYhd6iFa3biD
+      YUZHR+m0OqhGnWJVIzA6R7O4hIkPQ6sBOs1Gl3x1l5gHTDWCW65S90TZSX6GJDtIiX1mJ8fY
+      KhWxBIKMjroRgUanx0zCw+LNPfLVXVw2K17dJDF/nsLO1oExHtUJtkgCiwULYdvZOuP7vJx2
+      J/gwDNPk+nqGjxd3sKkK37oywXT8aUXxL86hBhAan2ZtZZlYPIZT6VNp9Yj5HOxm8lhVka7k
+      wOOxI1nA5omRSW1RbhmAiKzIBDwuUP2I3RXqVjdBrxVXYpRSrUvIY2czlycYjmJxeKhmNzAJ
+      4LQppLPlB+/3eZy4HSorqyv4AsEDYzyqEywKPCaTPeT08NOPV1lL7QsddHWDn/x2mfeuTXJt
+      5vP9xQbHQJzg9E4Shz+KxzHcp58lTtsW6L/94mP++sc/Zv7qG2TTe4SnLvPP/9FbfHVh9Ng+
+      85n2AVq7QXInTat1UK2302gSGZ0YTv4hL4xocRIbnWRkYhatWcHudB97vdYzyaKsrG8yNz/P
+      9uYW4ZCHVK7CSDTAXr5K2O9B1Npk83ki8XFyqS3sngCJWID1lTU84TiV7DYWZ4DxRIztzXUk
+      mwdBbyKoLtrVPN5AiGwmS3R0BLMrgqBRLxfpSTbyqQ0m5y8dEMc9ihMsAN+fsvP+6Kun83kY
+      pzkTfBhjYQ+TC1fRu13e+M4/A61BxHd4m9xB8UwGoCgK6r0uHdlilbmYnduZJlZTp1AooaoW
+      Juen2fj9p3gX3qaWvovps9LqQWM3hc/tpG9ogEmz2aJebuB3O5kJw3onQrtUYPzcArt3ryOY
+      URDqWCwqCibBcOzA5IejO8EJp0jC/vJaq54UZ9EJ/srCKFNxP7+6voHXYeUbl9/CYT3eh9Uz
+      +QCFTIpSUyfgcSGLxr0VIMhepkgw6EeWJVxeF/VCka10FgOJa+cnWV7fQMIBDgAAFg5JREFU
+      xunxPpCm9no9rK8sI6hO7JKBYHXTquTwBsJkMxmio+Pkd7dQHB587v0/nql30LAcagRHKYce
+      Clw95LT5ACfBYDPBfYPkZpJoYgKrZajwc9p5kgH0ej10vYeqWp6r5ehZ5MDd9bQ26xtJjP7h
+      j9bDHOEHCBITU9PDyX9GMc0+rVabZquNpuvUG0063e4Xv/EMc8AHWFleYXx6lk6jwW5qF49L
+      4c5GE7tUZXx6gXqtjMuq3CtprlNvaSBZGIv62dkrEg56KRYelkO/+/5bZLY3aWgQCbioNzX6
+      egtUFyoauqDS79aRbB60RgmHL0w1lyY4MvHgFNphHMUJlgT4lxecXAq8HkrPz+sEm6bB4tId
+      ZhNBVrZLYPUzPx7Aqh7srvKqcGAmnL9wgfXFm2TqfcIBJ4IgMTqaQNCtxCNBVmplkltJfOEx
+      7KqMIvVRrApbyS0kWWS3KHPlkXJoCej1BWwYpPMF5mdn2VhPgl5DEwVmZsJ88OtVwmMyCn20
+      boc+At1Ol6dpohzFCRaA2yEZC2er3dFROKoTvHzrD2TXJEo9D/hmmB8PHMPoTg8HDKBUyGEq
+      Dq5djLGT2sPujVDe2iUS9pHOFgn4/dhkASx23A4rhsNAkiX8LhvpfIVY0Mej5dAGMRrVEqor
+      SDwYQBIkVLkPqhuroJHK1BhJhLDY7fRaXURJRBBEJFmGpwhjHSUTLLB/FnjIkwmPTPD2wjgf
+      3kyB6zDpkleLl1IOPazmPJ183gm+Lx7b6XYfaGrarNZDm9C9Khy6GW7XK6C6sA3ImX3S5L/v
+      UL+uIbjTxn3xWEWR0Xu9ffnwV7xu6lADSGczIFQp5h6WQF+7dpVcLkssGmZ7L4+EgDew38dX
+      tntJbSwzff4i5XyekYlpats3SfWjjHn6NLowMzlGNr2DLqgY7QqSzUurUUEwBcKhfbXpkZCH
+      vWKDQmqD6YVrRIIHzyLc5yhO8Dm/hX936fUxtqNmggVBeKy90KvMIQZgkElnEVQHwUdKoIu5
+      PfqCRDW3S2D0PI10Gq3VQFLt6J0moUiCiN9NuVCk0+3i8bgRXaPU02tIAvSAeqvLzEyItdUO
+      1KsPFO3uq01v5Uwuzs0g9LSnTn44mhPc1g1W4q/ucv4oZzETfBIc8AGMdpWaaYdODVEwqWvQ
+      79RwuDxkcgXiYT+SK4BWryNJsL66SHR0BpvUo9eXqFQqhOOjeNQ+azsFPDbhwQqQ29tBF6z0
+      WmUkm3d/i9UHwdxXm45GvGSLDQJOhZ5kJ+K1DVQdengW+HGGmeABOMFDB/fsMjSAzxnAq572
+      HvI49zuovM485gOY5vH23B0y5LTxmAGor3DK+6To9XoYhoEkScjy61GCcRq4v7X7ojn92F9E
+      kl6PCMnLxDRNDMNAFMXh93sCfNF3Ptz0D3mtkX74wx/+EPa7aigDTH50mzXW7m6iWB3k0luk
+      cyUCAT8rK8sEg0GSq0tYXA6Wbq9Sb3fpm/qDSMT68jLuQJBSqYhdNljZKeKzGGTKTTbWVqnU
+      W/SNDjs7u9icPixaif/6k1+wu5ells8QiCe4/snvGRkZ4X//l78mdu4yKx//klzXxid//zPS
+      +QaKVuI3n9yi3TWRW1lyPQfF5B2Wd4uMxsJfcHfPjmmamKaJJEkDXQFSW3fZzZbxuSzcXlyh
+      0+tjtmuUWjpuu8LN28uYepPtnV1M0UK7Wd9PjBkdbi9vEg4FyOfyVLK7mKqXSiFHvVJgeXUN
+      ZJXszgb5SpNgwMdnf/iYjWSSWttgJ7lJyC2zmCzjt7T56S8/otbokNtZ5+76GobqoZnf5vqN
+      WyiuAMs3Pmb97iYOf5SVWzeJxePc/Owz+t06N+6s0Ovp/Opvf4VuykTDgyu80++pTj9tTuut
+      2vGtABvbKc6dP4dLrNGV/cyOetnYypPZvku7Z5LdStLW2lg9UbrtOqVScf+NfZ1Os8zd7TzF
+      Ugm0BlvbaRqNMnVDxWN3MDU7RTGfwxOIYlclaBf5dGmTjcVFRuJO/ubHf8VeY3+ybW/f4YOP
+      brF253fcXN/jj5/+ESSR7PpNRi5+nd//6mekk0ski23+7nfXufPJb4/rKxkcRoNSQ2RhfprV
+      tSQXL12iVspTLlYpFHMUdjYpdQ0q9SYL58+RS++SzxcA2Ll7l3KjgQEU8gVqnR47d5fJ7GWI
+      jU7gdDgYCTvJZKuMjiYAuHnzFkavx92NJJnNZf7nT3/F2HiMXj2Lbo2weOsPLK5u8NaXr/LB
+      r3/DLz/4mHe/9U1+8X9/wurGLu+++w7/53/89/3vHrh18yY/+/VveefrX2NqaopCqcSVC3Mv
+      /WtMp/Zewhao33+sn9PIWII7n3yMNzYGQGp7k0jsoexFdmuNpuQhl9p88LvxmWmS63cfu+z8
+      wmWUXonN3X0dmfmL1wioBlL4Int7u3z/vTcAUAMzaHsfobr3/5ixsRm+9bUvP7jOg7xYv8P6
+      0gpba6vk26c8Gtbv07837v7nMoFWCVJNg5BDptdtsrSyzvzCwoP/39nLYtOKrCTvPXAQiPps
+      ZMqPNj1Ueeebb/PZ9U/3f1TsfO2rX6GYTfHdH3ybvayBR91/wKwt3WTh8psYnQb/6Uf/ka+9
+      9w8eJhsfHZoAkixBv0dfkE9F+HVsZub4tkAum8L6RhKLK4LRyJEpd5idHkUQZWSLSjwcQLHa
+      CPhDBH1ODK3NbjqD4gpxfmYcm6rgcDiw220g2XBaRRxuP3ZVwmq3k01tUWnoJEZHUESBlZVV
+      /IlJLs6OY7WqjCUeGpXLYuPSV76K3e7CbGZJ5xuMjSVYW13h/NU3GQn5EU2di2+/xz/+xiVy
+      DYGgZzClwMeyBRJVtEaRVL7M/HSCO4sreAIhPG4nsViAdkfE53HicnuZGB9HFgUK2RT1jkE0
+      FmP2/CV67RpOpxO7w0EolqDdrBKJRABw2BTu3F7CEwjj93lAb7G5s8vs+SuEw34skpV4fL8l
+      bmhkmqvnJxFkCz/40z/h1o2bvHlxhus3bvPlb7yHxWxxd2Obd97/h0yE3Xz62R2+/M63mR3x
+      c/32Er7QCKoiEI/FB/Pd3ONZtkCCIA7VoY8bXdcfPFwG+YAZ8nSetdJ4GAUa8lozNIAhrzVD
+      AxjyWjM0gCGvNUMDGPJaMzSAIa81QwMY8lozNIAhwMPy4Rel3W4P5Dovi2GB+hAA/mapyY9v
+      7L7wdQSzR18czLT6D9+N86Xo8YpzDVeAVxRT79DqGl/4ulazySmvfDpWTnQF0HWdZrN5Kgqj
+      BkE+38TvdxIIeF6a+sReco1cQ8flcqDKCvVygUA0Tnr9Nl3Fh9GuYIud40LcxspWnrBHpaGB
+      3ixjd3pYWbnLN7/z7YGNR+gb9Ac4rdrNOplCBYtoUGv3ODc3Q7NaptRoY5MgU6phpUvfFmBu
+      MvHc1x/cSM0Oa5t5cqkkX7oyRa7rRWjlCblgKS9yYTqB+khTbMMw2Nvbe2Um/4cfbvPzn9/F
+      7Vb5i7/4DtHowc6Wx0Gt3mBs6hwrn93g2oUxbizXyGynmbk8xc5OEavdRTAYJLVxm8jEeQob
+      i6SKDZw2hVZbI3ZI45EXoS8M9tSbzeHCVmuiWlTypRx9wOnx0Wh3cDltSHYvtVIOUTjaOjY4
+      AxCtiGadWNjDH5fLJEJ1SvUOzapGIHGJ5MYG8/MzD16uadorM/kBdnfrANRqXfL56kszgPmL
+      V9hKJpm7cAHV4+bqrIY3GKWUz7GwsIDVZqNQLDKxcJHtnT3CkQjBxCRWWUSVIZ2vnWpHsF4t
+      oekaVpub8ckJSoUCstBH0/ug2PCrKjbJT9c4muEN9N4FTSMwe4Xa4mcEfWFqnRJhv5/tvS3C
+      odBjr1VVFVEUXxklivffnwQgkXAxNvZyJj8Agsj45NSDH0fG9sfhGB9/+Lt7J9zGxg5uESbG
+      XIMdzoC3QC6PH5fn0VVqXyDN+8jhMZvDzVFd5RMth+71erRarVdqJVAU5bHv8ayUQ/d6vYGo
+      Vgz6XMlRedZy6BNd/WRZxu12n9jn3y12MCQRi2liiBLTXoW1QhtJlqh1DFRZoNnrM+1R8Npk
+      VlfWmJ+fpVLIspOrEAs4yVbaXJifIb+3S7lt4rKYpLIiHlWg07cQCw92jz1ksJzm7d+xU+sa
+      WK0iLQMEwwAUHIpIum1yziNT6hgslXq0ugZxz8N2nXaHnWplC6tkUK7sP2lqrQ4iAg67i92t
+      LNVuDcUVPDMG8J9v1/jxjfILX0c0upjSk7V4XkZs/3l4rQ3ArUpUdRO1b9KTJGpdg0rHRJVF
+      St0+Yz4rqizR1I3HYuW1Wg2HakG0KNgUC5l8HkXoU273qNZqqKoFh91Hp3+4Y9Zp1JHsLpTH
+      sjAGzYaOw3m2dVYHHQU6bl5rA5gOHJxsC5HHn04RlwL3eooVevtP82BkhGBkZP8Fk/tlBGoo
+      xNi994w+8v77Z1MBGvkd7uxUsOl12lY3Y9EQ5WqDoEtFF3tkNyt4vDK67EHvVomGw6RTOc5f
+      vcjexhqC6qZRSjMxd5nM9ioub5BcZg+bJ4hHFclU6zhk6PREXFaBhiagouEIxLCJOsl0kbDX
+      ji5aaJbyJKbmsasvfwpUSimaXSeq2KRY7zI/M0kxm6au9bHQo9sXKKV3ScxdJOI/3i3yMBP8
+      HASDh+vWPKukZLtRJzQyjs0i47f1+fAPd6hXqiT3skSDPpaXV1Elk2wqj9vR55PFbWStgwaU
+      qg3y2RT1Vhe7KtHpdNjZXKdczFAu5vl4aQe0DsVKHaPbJpMrU6sU6XQ7FApFCoUCG8kku3tZ
+      ok6omw60Zo1SpTLQTLDQ/+Lss9fvQwJEUUKRZcCgUKzQataRZAVZMAnEpug2KgMc2eG81ivA
+      yyY0uYC+k8Q2PodqlYmNTJEvlIkF3RTKGn/6T79Hp9PhSsiK1SqgKiX+7sPrzL71JhOjcQTV
+      jUQPAJ/Pj3MyQKVUIhCJMV6vY7NZMM0+oiCys7HIdrnHWCyMzRdBNtpctXoIe+0U2gYjXome
+      CYMWBH+WLVAhW8VABAECAT+FQoX5hQW0bpdyqYg/FEdvVlFdg1WKOIznDoPWKwUypSbTk+Pc
+      b7hYzmdQXAGc1ieFv0xaLQ27/fEtR61Wo9FovPQwaKXSYXm5wLVrCSYn48datnBWwqB/daM0
+      ECf4i4rhXpYT/Kxh0Oc2gLW1FSbHYiRTNSSjid3t4/atW1y4eIFKtUE4EqBZb6IIPUSLg3Kp
+      QCQxQj5dYnZu4sF1NE1jb2/vBW7x6PzoR78jn28RCtn5y7/8Hi7XYJNBj3JWDKDb7Q5EHbzd
+      bmOznXyU59hkUXrdNh9+fJ2oF7ZKXdrdHmOjY+QzKUytSWovTzg+QrXRxWERMASRdGrnwHVO
+      Swb4tIzjpBmUaNdZk4B/7tGGYwnm58+RqzSIu2XsDjuSXUXCTbZUIxQKoUoCkWgEWQFREPF6
+      gyifiw2rqorNZjuRAxR/9mdXWFrKc/lyHKfzYO+x15FB5QGetAX6N1d9/Nurpy8n8twGEAjs
+      17lEQ1aiocdrXrzByMN/e/e7PJ6bO7zboyAIhMNhDMN46T7AyAhMTe1P/mHTvMEy6Fqg4+bE
+      RzqopXer1CGvgaVvIigSl4Iqf0w1CbhVmi0dJOiaAlGbRMylkE5nmJ+fJbW1Qall4LUJ1Lpw
+      YX6G5PoKXRS69TJOj4dqpUEgOsJYPPTFAzkhfvP//hfTb77L7z/6lLevzKAJKlqjRDmTwTN7
+      GalRwO720KyU8UfjZNK7BINR8qUyFxbODWwcT4sCGXqX7XSNoFdiK5XnwsI8nUaFjd0CYa+d
+      TKmG2yrTEyxMT4498TqD5MQNYFCoskhIFig3DMqtHqAiiwL1roFTETCBXKNHraXT7T986qtW
+      K35VQUHDZ9vfplltVmyqne1CDqXboY9IuVQ81QbgjIyxfv0PjI4nyJWq9M0+Wk8nFg5gd4ls
+      lW0U7y6CaGF5eYdL18b55MYdIgEb9c7LGaOkqNgsFkyzRzweRwCy2Ty61sXpDDJi99KqlXiZ
+      ueRXxgBK7R4oMl6rRECRqXUNFElAVUTydY2pkJXLNplSU8drFcnee1+lVAKbh2arguz0sbub
+      olYu4fRbcLkcuHxhFKFAYGT8qZ9/0szNzmNMGciKgqm10QUViwQOm4VMsUw7t44rNk7QbWNu
+      zsKHH/wdb377+3TKeVwDrL542hZI77TQ9CqKxUGzVcfodZmYnkXTuvT74FdVrKJOT7Ac+v7j
+      4LVVh35Z93tWwqDHnQd42U7wseUBhjwfZ8UAhucBToB+v4+u688VBRIEAUVRhtGbAWMYxkAM
+      oNfrnQoDeFZe+I5vfPp7JJuHUMBDNBJ95vf1+32y2exzCTJ9+OE2u7t1vvvdORYWJodtRwfI
+      oHWBTlvd/5N4YQNotduoko1SPsPmVop4wEWj2cCq2Kj0RTyKwZ07a8Qn5/nylYfhtm63+1yT
+      P59v8vOfP+wTNj4ePtHTZIOm2WjicDq+4FUvfmbg2T7n9eGFDSAQiTM/O0tyawu7C+jdn9QC
+      EzPz1JKfERkZZzzx+OrwvE9vl0vF7Vap1bokEq6z+fQ32vz2oxtMTcTJ1XQCTglTtqPVi5Tq
+      XVxWibvJFN/7J98jubqEyxsgkysS8NpBkKlU9jDMICMRC7lKB5cKst1Hr12h0tDwOhREWaVY
+      LOH2eKg36sSiEbKFChYR7FaZ1eQe3/rG26wuLR3LeYBHo0D3NX2scp9qQ2NufoZ8Nkuj3cVp
+      MdFw0qnkmVg4z0ltml747udnZwGYGD88TBiYu8LkIb9XFIVgMEi9Xn8mH8BisfDnf/4O9brG
+      2FjwbDrshobs8OGWNfYUF2srNwiMxOm1BVRZwhAEorEQIh2qdROLXCWzkaQY9vOlMS91TxSz
+      3GMnlUXs99ks67zz9hTXP93AJois1zUuhGyUml1SmRIXpnwsJTNUC3tMxGPU6l18Ljt0yg/O
+      A3Ta4oOs/SB4NBF2X9OnZ/RwO6z3mkYKxMMBNpObSIpAwOcb2GcfhRN1gh0Ox37z5uekUCie
+      TSfY4mF2pEVHsjA36sYMvkHbkEFroTo9KBLUKlVMrIyOeFFUO+eu2nH73HicDuqpXbyTUSxS
+      kHy1zaTDigAYegfX+CwJpw2X08GEkKQomXTVAFdnbFTiYXwuB4beoqmLYA0w4m0dy3mAR7mv
+      6RMKhWh2NMqFAtCn0dZZWFhA62rkszmqpSpBv+f4BvIUTjwM2usZfJDq8LW4lY/2urw7Zmer
+      2CGn94naJf6YbjPqVaAPel/g7biNlZU15ufH+fA3H+OJjjA/EWVp8RamGkTSq8giZFsKX7p8
+      Dpft5SVVDuOshEEHlQe4fyj+pJ3gMxEGBZBliZhDwqJIhO37jyO7RaRT7aD4VOaCVjwKbNc1
+      2h2RB+2cDQ3RYkcURWTVgcMdYnQ0QTKpo2sGHkubXKGKa/T0li+cJv7VRfdAElWnJQ/wrJz4
+      CnAUdnZ2GR3dVzkztSZ1XcHjONkn/ZM4KyvATqVDvvPiVbmG1iXhdxBznuy9npkV4Cjcn/wA
+      osWB53TO/TPFz5OtgZVC/OsvhU5l7f9h/H8dXkLpF+/2nwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+  <external>
+    <shapes>
+      <shape name='Bars/bars0.png'>
+        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABJ0AAASdAHeZh94
+        AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAglpVFh0WE1MOmNvbS5h
+        ZG9iZS54bXAAAQBVVEYtOABYTUw6Y29tLmFkb2JlLnhtcAAokX1TwY6bMBD9Fct7aaUGg8EQ
+        0NIVYFD3kHaVjbS9EvBurAQb2d6Gza/10E/qL9SkIa2qNPbFM35v3ow9c3s39HWzZQas2QsX
+        Kfz5/QcEvE3hE1m4i75gG/7poNjj4fOqOWybuIV3H8HtkAxd3zFTg6HbCZ0MKaxbuWaJPY9u
+        BMERYrYpzMYL8HXxAAqpGCBOOGvcMAJR7HgkioLoA8CuR5DrI9+dYT8J3CTA4LSgVVPtc7Kk
+        1UnLWincGNMnCO33e2fvO1K9IC+OY+RihPHMImb6TZh6mAl9M0WgTDeK94ZLAUa7XstXk0I4
+        ldD1i8U5sNDOsSCnkR0a6h55jou6Dk1obZbs+Tpar956hpZMy1fVMAu/+UvqOnUE2mySL4rb
+        T6l3VDavHRPmnqbQ3jgtb5MgC6lHSZjZTannzfM8LLBXEVKWPnGzKcYlbj7PyijHYVmW2PNK
+        ks/9vIxJjkuaVZlLJ+690KYWDZu4/A+XXOUmhWK1kWol5W7qgIeNNFJvZA+KxxC8e+KilXv9
+        fvyeU6ZM8W+srZTswPF9E35Bn1YEx8Ec29J9q+/nAQ2ruCDWW2aeb/V/c9sLdZ+4/n+5yCaD
+        /mmWyWU7cDyeW98a5+Fhwk6MsqPxCy9FBzkACD8LAAAAuklEQVRYhe2YSw6AIAxEW+P9r1x3
+        hl8EnFRnMW+JSF6omSIeEcbMiS7g7tD7sw06oNU/AN5BgDAbVyAi7sE/Bc3MvC2xu1cD9CWW
+        IIoEUegFs2LmqT1stZ7MHByJbDd++hJLEEWCKPSC2zHTHofax4DLkFc5WB4oiwNnys8NfYkl
+        iCJBFHrBKmaeMq6Mli/pcnAkMgnnVOhLLEEUCaJIEKXLwZXMW8zFpTmzK+TuAnGX7DtqWDAb
+        +m/wAtTiKmH/uir7AAAAAElFTkSuQmCC
+      </shape>
+      <shape name='Bars/bars1.png'>
+        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABJ0AAASdAHeZh94
+        AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAglpVFh0WE1MOmNvbS5h
+        ZG9iZS54bXAAAQBVVEYtOABYTUw6Y29tLmFkb2JlLnhtcAAokX1TwY6bMBD9Fct7aaUGY8AQ
+        rKUrwKDuIe0qG2l7JeDdWAk2Mt6Gza/10E/qL9SkIa2qNPbFM35v3ow9c3s3dFW95Qas+YuQ
+        Cfz5/QcEokngE1m4iy7nG/HpoPnj4fOqPmzruIF3H8HtQIe2a7mpwNDuZE+HBFaNWnNqz6Mb
+        QXCEmG0C0/ECfF08gFxpDogTzmo3jEAUO5hEURB9AJ6LCXJ95Lszz6eBSwMPnBa0arp5pktW
+        nrSslcCNMR1FaL/fO3vfUfoF4TiOkeshz5tZxKx/k6YaZrK/mSIw3tdadEYoCUa7WqtXk0A4
+        ldB2i8U5sOydY0FOrVo0VB3CjovaFk3o3iz583V0v3rrOFryXr3qmlv4zV9S16kj0GZDv2hh
+        P6XaMVW/tlyae5ZAe+M0oqFBGjLMSJjazRjG8ywLcw+XhBSFT9x0inGJS/yY5ZGXFUWRY1yQ
+        bO5nRUwyr2Bpmbps4t7L3lSy5hNX/OGmV7k017wySq+U2k0d8LBRRvUb1YH8MQTvnoRs1L5/
+        P37PKVOuxTfelFq14Pi+VFzQZ2XIggzPbem+1fezgIVlnBPixUWKfav/m9tcqPvEjf/LRTYZ
+        9E+zTC7bgePx3PrWOA8Pl3ZitB2NX075B3XFYa+zAAAAtElEQVRYhe2YQQ6AIAwEW+P/v1xP
+        GkQiwqa4h50jIplQs1Q8IoyZHV3A3aH3exu0QasvAN5BgDBrVyAirsE/Bc3MvC6xu98G6Ess
+        QRQJotALZsXM2/EwdPRk5mBLZPjgpy+xBFEkiEIvOBwzdTtUPwZcmkzlYNlQFg1nys8NfYkl
+        iCJBFHrBW8y8ZVwZLSuh30EJokgQRYIo9IJT/WCnaT35NKd3hfy4QBwl+44aFsyG/hs8AH0s
+        JV2VX56RAAAAAElFTkSuQmCC
+      </shape>
+      <shape name='Bars/bars2.png'>
+        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABJ0AAASdAHeZh94
+        AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAghpVFh0WE1MOmNvbS5h
+        ZG9iZS54bXAAAQBVVEYtOABYTUw6Y29tLmFkb2JlLnhtcAAokX1T0W6bMBT9Fct92aQF24BJ
+        QWUVYND6kK5KI3WvBNzGSsDIdhaaX+vDPmm/UJOGbJqy2C++1+fcc699781t35XVmhuw5C+i
+        jeHvt18QiDqGT3SGZ13GV+LbXvHH/f2i2q+rsIa3X8FNH/VN13BTgr7ZtDrqY1jWcskjex7c
+        CIIDxKxjmAwX4MfsAWRScUCdYFLhYAqmoUPodOpPvwAXE4qwhzw8cb3Ix5HvguOCVk3Vz9Gc
+        FUcta8VwZUwXIbTb7Zyd50j1gkgYhgi7yHUnFjHRr60p+0mrr8YIjOtKic4I2YLBLpdya2II
+        xxKabjY7BW61cyjIqWSD+rJDxMGoadCI1mbOny+j9eK142jOtdyqilv41V9Sl6kD0GYTfVfC
+        fkq5YbLaNrw1dyyG9sapRR35ScAIo0FiN2OEXKdpkLmkoDTPPYqTMcY5rqWFzKN+nucZITlN
+        r700D2nq5iwpEsxG7l2rTdlWfOSKP1zvIjfKFC+NVAspN2MHPKykkXolO5A9BuDTk2hrudOf
+        h+85ZsqV+MnrQskGHN43Euf0i4D5qYttHp7V91KfBUWYUeqGeUI8q//Brc/V/cEl/+Uimwz6
+        p1lGl+3A4XhqfWuchoe3dmKUHY13Lj8HUUPovXwAAACnSURBVFiF7ZjBDoQwCAXB+P+/zN6M
+        dhvdZoL7Dm+ONTYTMCBkVYUyO70gM9H7TwHa0O0vgCMIqIh5BqrqOPynYEREjinOzMuBfIot
+        SLEgRV6wq8zctYel1tNZB2ciy41fPsUWpFiQIi+4XGbG36HxMXCZIh9BC1IsSLEg5VIH72rc
+        eVZ9E/kIWpBiQYoFKfKCnXPxLzNwPa2QvxaIq3TvqLFgN/Lf4AeuaiBZpyugfgAAAABJRU5E
+        rkJggg==
+      </shape>
+      <shape name='Bars/bars3.png'>
+        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABJ0AAASdAHeZh94
+        AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAglpVFh0WE1MOmNvbS5h
+        ZG9iZS54bXAAAQBVVEYtOABYTUw6Y29tLmFkb2JlLnhtcAAokX1TwY6bMBD9Fct7aaUGY4gh
+        oKUrwKDuIe0qG2l7JeDdWAk2sp2Gza/toZ/UX6jJhrSq0tgXz/i9eTP2zO1d31X1hhmwYi9c
+        JPDX208IeJPAJzJ3513O1vzLQbHHw9dlfdjUUQPvPoPbPu7brmWmAn27FTruE1g1csViex7c
+        CIIjxGwSmA4X4Pv8AeRSMUCcYFK7QQjCyMEkDKfhJ+C5mCDXR7478fx46sZTD5wWtGqqeY4X
+        tDxpWSuBa2O6GKH9fu/sfUeqF4SjKEKuhzxvYhET/SpM1U+EvhkjUKZrxTvDpQCDXa3kziQQ
+        jiW03Xx+Diy0cyzIqWWL+qpD2HFR26IRrc2CPV9H6+Vrx9CCablTNbPwm7+krlMHoM0m/qa4
+        /ZRqS2W9a5kw9zSB9sZpeBNP04BiSoLUbkoxnmVZkHu4JKQofOKmY4xLXEuLqE9mRVHkGBck
+        m/lZEZHMK2hapi4dufdCm0rUbOTyP9zwKjfOFauMVEspt2MHPKylkXotO5A/BuDDExeN3OuP
+        w/ecMmWK/2BNqWQLju8b80v65SzzA1LYPHyr72dTGpRRTogXFSn2rf47t7lU9zu3/C8X2WTQ
+        P80yumwHDsdz61vjPDxM2IlRdjR+A0IhB28ZPhFJAAAAnElEQVRYhe2YQQrAIAwEk9L/fzm9
+        lWpFkUHNYedoqQwbiW08IiwzN93A3dH7o4AutPsGcIKAMGtXICLexZOCZmZel9jdi4X0JZYg
+        RYKU9IKr2kzvepi6etInKEGKBCkSpEz3wfpzqH4MXJqkT1CCFAlSJEgp+mCvx33/VXeSPkEJ
+        UiRIkSAlveDp+WCMRsi/AeIsq2fUWHA16c/gAzgpHlixeORrAAAAAElFTkSuQmCC
+      </shape>
+      <shape name='Bars/bars4.png'>
+        iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAABJ0AAASdAHeZh94
+        AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAh1pVFh0WE1MOmNvbS5h
+        ZG9iZS54bXAAAQBVVEYtOABYTUw6Y29tLmFkb2JlLnhtcAAokX2T3W6bMBTHX8VybzZpwRyw
+        HUBlFcGg9SJb1Ubqbgm4DUrAyDgL7avtYo+0V5jJQlZNVYALH/v/Ox/4nOuboSvKrTRoLZ/r
+        Nsa/f/7CqK5i/MiW7rJL5ab+8qrlw+vXVfm6LcMK33xG10M0NF0jTYGGZtf20RDjolJrGdn1
+        uE0wOkrMNsbJeIC+L+9QqrREzPFnpQuAOHeAMs7hE/Jc8IhrPz4DGjEeeXN0erCNpqun6F7k
+        p1jWivHGmC4i5HA4OAffUfqZQBiGow/Pm1nFrH9pTTHM2v5q8iBkX+q6M7Vq0WgXa7U3McZT
+        CU23XJ4dt71zLMgpVUOGoiPguKRpyKTuzb18uqzuVy+dJPeyV3tdSiu/ehPqMjoKbTbRN13b
+        Syl2QpX7RrbmVsTYnjhVXUU04QIE44l9hQAIFgueepAzlmU+c5PJx3usyBPmeoFvcR8g8xdU
+        8DxMGfPCLAFfTOxt25uiLeXE1v9Y7yIbpVoWRumVUrupA+42yqh+ozqUPnD04bFuK3XoP47X
+        c8pU6vqHrHKtGnT8v1H9TvwEaECT+YLlgmU2g8QL3AB8mtJ5SF1u6/7LVm/q3u8tmNM0ZzR1
+        QcwDkQEs5gyyPBFBAl6WAsXEZkL+65Rpy7bfuDz3vTXOkyNbOy7azsUfAYIFbyUkKNUAAAB6
+        SURBVFiF7dhBCoAwDABBI/3/l+NNRNBWV2oOO7eC4BIkBSMzl8rWvwN6yge24yEiZr778tvK
+        zD2k/AQNpAykDKRa/5FX7u7PR8u2/AQNpAykDKTe7MHPdtyI8hM0kDKQMpA678GpO25E+Qka
+        SBlIGUgZSIU/0aHygRst+Q1RHTp4DQAAAABJRU5ErkJggg==
+      </shape>
+      <shape name='Bars/tHWKRKM - Imgur.png'>
+        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
+        RU5ErkJggg==
+      </shape>
+    </shapes>
+  </external>
+</workbook>
